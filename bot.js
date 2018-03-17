@@ -8,7 +8,7 @@ client.on("message", async message => {
 
     if (message.content == '!StartClock') {
         message.channel.sendMessage('Clock has started');
-        var j = schedule.scheduleJob('44 * * * *', function () {
+        var j = schedule.scheduleJob('01 * * * *', function () {
             message.guild.channels.find("name", "general").send("There has been " + count + " days without a problem");
             count++;
         });
