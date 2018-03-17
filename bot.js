@@ -9,14 +9,14 @@ client.on("message", async message => {
     if (message.content == '!startclock') {
         message.channel.sendMessage('Clock has started');
         var j = schedule.scheduleJob('15 * * * *', function () {
-            message.guild.channels.find("name", "general").send("There has been " + count + " days without a problem");
+            message.guild.channels.find("name", "general").send("There has been " + count + " days without a channel wipe!");
             count++;
         });
     }
 
     if (message.content == '!resetclock') {
-        message.channel.sendMessage('Clock has been Reset. 😢');
-        count = 0;
+        message.channel.sendMessage('Wipe has occured time to reset. 😢');
+        count = 1;
     }
 
 });
