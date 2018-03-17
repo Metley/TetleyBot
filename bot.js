@@ -15,7 +15,7 @@ client.on("message", async message => {
     }
 
     if (message.content == '!ResetClock') {
-        message.channel.sendMessage('Clock has been Reset. '+client.emojis.get('😢'));
+        message.channel.sendMessage('Clock has been Reset. 😢');
         count = 0;
     }
 
