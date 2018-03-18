@@ -7,7 +7,7 @@ var count = 1;
 client.on("message", async message => {
     
     if(message.content.indexOf('!') !== 0) return;
-    if(message.channel !== 'commands') return;
+    //if(message.channel !== 'commands') return;
 
     if (message.content == '!startgymclock') {
         message.channel.sendMessage('Clock has started');
