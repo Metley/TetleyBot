@@ -5,8 +5,11 @@ var count = 1;
 
 
 client.on("message", async message => {
+    
+    if(message.content.indexOf('!') !== 0) return;
+    if(message.channel !== 'commands') return;
 
-    if (message.content == '!startclock') {
+    if (message.content == '!startgymclock') {
         message.channel.sendMessage('Clock has started');
         var j = schedule.scheduleJob('15 * * * *', function () {
             message.guild.channels.find("name", "general").send("There has been " + count + " days without a channel wipe!");
@@ -14,8 +17,9 @@ client.on("message", async message => {
         });
     }
 
-    if (message.content == '!resetclock') {
-        message.channel.sendMessage('Wipe has occured time to reset. 😢');
+    if (message.content == '!resetgymclock') {
+        //message.channel.sendMessage
+        message.guild.channels.find("name", "general").send('Wipe has occured time to reset. 😢');
         count = 1;
     }
 
