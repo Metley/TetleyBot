@@ -5,11 +5,11 @@ var count = 1;
 
 
 client.on("message", async message => {
-    
+    /*
     if(message.author.id == '327162272990363648'){
         message.react('❄').then(console.log).catch(console.error)   
     }
-    
+    */
     if(message.content.indexOf('!') !== 0) return;
     if(message.channel.id !== '424656070892322826') return;
     
