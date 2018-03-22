@@ -35,9 +35,11 @@ client.on('MessageReactionAdd', function(user) {
     if(message.channel.id !== '426359385963626506') return;
     
     if (message.content === '-Lugia') {
-        user.addRole(users.guild.roles.find('name', 'Lugia'));
+         message.guild.channels.find("name", "general").send(user.username+"Tried adding Lugia Role");
+        user.addRole(users.guild.roles.find('name', 'Lugia')).catch(console.error);
     } else if (message.content === '-Tyranitar') {
-      user.addRole(users.guild.role.find('name', 'Tyranitar'));
+        message.guild.channels.find("name", "general").send(user.username+"Tried adding Tyrantiar Role");
+      user.addRole(users.guild.role.find('name', 'Tyranitar')).catch(console.error);
     } else {
         return;   
     }
@@ -47,9 +49,11 @@ client.on('messageReactionRemove', function(user) {
     if(message.channel.id !== '426359385963626506') return;
     
     if (message.content === '-Lugia') {
-        user.removeRole(users.guild.roles.find('name', 'Lugia'));
+        message.guild.channels.find("name", "general").send(user.username+"Tried removing Lugia Role");
+        user.removeRole(users.guild.roles.find('name', 'Lugia')).catch(console.error);
     } else if (message.content === '-Tyranitar') {
-        user.removeRole(users.guild.role.find('name', 'Tyranitar'));
+        message.guild.channels.find("name", "general").send(user.username+"Tried removing Tyranitar Role");
+        user.removeRole(users.guild.role.find('name', 'Tyranitar')).catch(console.error);
     } else {
         return;   
     }
