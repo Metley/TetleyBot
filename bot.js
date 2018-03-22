@@ -32,7 +32,10 @@ client.on("message", async message => {
 });
 
 client.on('MessageReactionAdd', function(user) {    
+     message.guild.channels.find("name", "general").send(user.username+" reaction seen");
     if(message.channel.id !== '426359385963626506') return;
+    
+     message.guild.channels.find("name", "general").send(user.username+"reaction seen after channel check");
     
     if (message.content === '-Lugia') {
          message.guild.channels.find("name", "general").send(user.username+"Tried adding Lugia Role");
