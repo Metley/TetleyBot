@@ -31,5 +31,29 @@ client.on("message", async message => {
 
 });
 
+client.on('MessageReactionAdd', function(user) {    
+    if(message.channel.id !== '426359385963626506') return;
+    
+    if (message.content === '-Lugia') {
+        user.addRole(users.guild.roles.find('name', 'Lugia'));
+    } else if (message.content === '-Tyranitar') {
+      user.addRole(users.guild.role.find('name', 'Tyranitar'));
+    } else {
+        return;   
+    }
+});
+
+client.on('messageReactionRemove', function(user) {    
+    if(message.channel.id !== '426359385963626506') return;
+    
+    if (message.content === '-Lugia') {
+        user.removeRole(users.guild.roles.find('name', 'Lugia'));
+    } else if (message.content === '-Tyranitar') {
+        user.removeRole(users.guild.role.find('name', 'Tyranitar'));
+    } else {
+        return;   
+    }
+});
+
 
 client.login(process.env.BOT_TOKEN);
