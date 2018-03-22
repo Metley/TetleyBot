@@ -31,16 +31,17 @@ client.on("message", async message => {
 
 });
 
-client.on('messageReactionAdd', function(user) {    
+client.on('messageReactionAdd', function(messageReaction, user) {    
     
-    const member = message.guild.members.get(user.id);
+    var member = messageReaction.message.guild.members.get(user.id);
     
-     message.guild.channels.find("name", "general").send(user.username+" reaction seen");
+     message.guild.channels.find("name", "general").send("reaction seen");
     //if(message.channel.id !== '426359385963626506') return;
     
      message.guild.channels.find("name", "general").send(user.username+"reaction seen after channel check");
     
     if (message.content === '-Lugia') {
+        member.addRole('327162272990363648');
          message.guild.channels.find("name", "general").send(user.username+"Tried adding Lugia Role");
         user.addRole(users.guild.roles.find('name', 'Lugia')).catch(console.error);
     } else if (message.content === '-Tyranitar') {
@@ -51,7 +52,7 @@ client.on('messageReactionAdd', function(user) {
     }
 });
 
-client.on('messageReactionRemove', function(user) {    
+client.on('messageReactionRemove', function(messageReaction, user) {    
     //if(message.channel.id !== '426359385963626506') return;
     
     if (message.content === '-Lugia') {
