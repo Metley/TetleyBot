@@ -31,9 +31,10 @@ client.on("message", async message => {
 
 });
 
-client.on('messageReactionAdd', function(messageReaction, user) {    
+//client.on("messageReactionAdd", function(messageReaction, user) {    
+client.on("messageReactionAdd", async user => {    
     
-    var member = messageReaction.message.guild.members.get(user.id);
+    //var member = messageReaction.message.guild.members.get(user.id);
     
      message.guild.channels.find("name", "general").send("reaction seen");
     //if(message.channel.id !== '426359385963626506') return;
@@ -41,9 +42,10 @@ client.on('messageReactionAdd', function(messageReaction, user) {
      message.guild.channels.find("name", "general").send(user.username+"reaction seen after channel check");
     
     if (message.content === '-Lugia') {
-        member.addRole('327162272990363648');
+        //member.addRole('327162272990363648');
          message.guild.channels.find("name", "general").send(user.username+"Tried adding Lugia Role");
-        user.addRole(users.guild.roles.find('name', 'Lugia')).catch(console.error);
+        //user.addRole(users.guild.roles.find('name', 'Lugia')).catch(console.error);
+        user.addRole('327162272990363648').catch(console.error);
     } else if (message.content === '-Tyranitar') {
         message.guild.channels.find("name", "general").send(user.username+"Tried adding Tyrantiar Role");
       user.addRole(users.guild.role.find('name', 'Tyranitar')).catch(console.error);
