@@ -31,7 +31,10 @@ client.on("message", async message => {
 
 });
 
-client.on('MessageReactionAdd', function(user) {    
+client.on('messageReactionAdd', function(user) {    
+    
+    const member = message.guild.members.get(user.id);
+    
      message.guild.channels.find("name", "general").send(user.username+" reaction seen");
     //if(message.channel.id !== '426359385963626506') return;
     
