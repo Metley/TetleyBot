@@ -33,7 +33,7 @@ client.on("message", async message => {
 
 client.on('MessageReactionAdd', function(user) {    
      message.guild.channels.find("name", "general").send(user.username+" reaction seen");
-    if(message.channel.id !== '426359385963626506') return;
+    //if(message.channel.id !== '426359385963626506') return;
     
      message.guild.channels.find("name", "general").send(user.username+"reaction seen after channel check");
     
@@ -49,7 +49,7 @@ client.on('MessageReactionAdd', function(user) {
 });
 
 client.on('messageReactionRemove', function(user) {    
-    if(message.channel.id !== '426359385963626506') return;
+    //if(message.channel.id !== '426359385963626506') return;
     
     if (message.content === '-Lugia') {
         message.guild.channels.find("name", "general").send(user.username+"Tried removing Lugia Role");
