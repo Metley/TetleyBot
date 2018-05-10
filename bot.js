@@ -48,7 +48,7 @@ client.on("message", async message => {
 	
 	if(command == '!findfull'){
 		var gyminput = args.join(" ");
-		message.reply('test: '+gyminput);
+		message.reply('testing findfull: '+gyminput);
 		var gymdb = gyms.gym;
 		var size = gymdb.length
 		for(var i = 0, i < size, i++){
