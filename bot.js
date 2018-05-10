@@ -56,6 +56,7 @@ client.on("message", async message => {
 									       +"\nGymLocation: " +gym.gymlocation);
 			break;
 			   }
+			message.guild.channels.find("name", "general").send("GymName: " +gym.gymname);
 		}
 		message.guild.channels.find("name", "general").send("Test: " + gymdb[0].gymname);
  	}
