@@ -25,7 +25,7 @@ client.on("message", async message => {
 		var found = 0;
 		for(var gym in gymdb){
 			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
-			   message.guild.channels.find("name", "general").send("**Gym Name:** " +gymdb[gym].gymname 
+			   message.channel.send("**Gym Name:** " +gymdb[gym].gymname 
 									       +"\n**Gym Location:** " +gymdb[gym].gymlocation
 									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
@@ -35,7 +35,7 @@ client.on("message", async message => {
 			}
 		}
 		if(found == 0){
-			message.guild.channels.find("name", "general").send("Gym Not Found");
+			message.channel.send("Gym Not Found");
 		}
 
  	}
@@ -46,14 +46,14 @@ client.on("message", async message => {
 		var found = 0;
 		for(var gym in gymdb){
 			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
-			   message.guild.channels.find("name", "general").send("**" +gymdb[gym].gymname 
+			   message.channel.send("**" +gymdb[gym].gymname 
 									       +": **" +gymdb[gym].gymlocation);
 				break;
 				found = 1;
 			}
 		}
 		if(found == 0){
-			message.guild.channels.find("name", "general").send("Gym Not Found");
+			message.channel.send("Gym Not Found");
 		}
 
  	}
