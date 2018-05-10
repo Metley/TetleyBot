@@ -22,6 +22,7 @@ client.on("message", async message => {
 	if(command == '!find'){
 		var gyminput = args.join(" ").toLowerCase();
 		var gymdb = gyms.gym;
+		var found = 0;
 		for(var gym in gymdb){
 			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
 			   message.guild.channels.find("name", "general").send("**Gym Name:** " +gymdb[gym].gymname 
@@ -29,11 +30,34 @@ client.on("message", async message => {
 									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
 									      +"\n**Notes:** "+gymdb[gym].notes);
+				found = 1
 				break;
 			}
 		}
+		if(found == 0){
+			message.guild.channels.find("name", "general").send("Gym Not Found");
+		}
 
  	}
+	
+	if(command == '!post'){
+		var gyminput = args.join(" ").toLowerCase();
+		var gymdb = gyms.gym;
+		var found = 0;
+		for(var gym in gymdb){
+			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
+			   message.guild.channels.find("name", "general").send("**" +gymdb[gym].gymname 
+									       +": **" +gymdb[gym].gymlocation);
+				break;
+				found = 1;
+			}
+		}
+		if(found == 0){
+			message.guild.channels.find("name", "general").send("Gym Not Found");
+		}
+
+ 	}
+	
 	
 	if(command === "!purge") {
 		// This command removes all messages from all users in the channel, up to 100.
