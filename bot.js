@@ -11,7 +11,7 @@ client.on("message", async message => {
     if(message.channel.id !== '424656070892322826') return;
 	
     const args = message.content.split(' ');
-    const command = args[0];
+    const command = args.shift();
         
 
     if (message.content == '!startgymclock') {
@@ -47,7 +47,7 @@ client.on("message", async message => {
  	}
 	
 	if(command == '!findfull'){
-		var gyminput = args[1];
+		var gyminput = args.join(" ");
 		message.reply('test: '+args[1]);
 		var gymdb = gyms.gym;
 		for(var gym in gymdb){
