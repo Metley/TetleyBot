@@ -40,10 +40,10 @@ client.on("message", async message => {
 		for(var gym in gymdb){
 			if(gymdb[gym].gymname.includes(gyminput)){
 			   message.guild.channels.find("name", "general").send("Gym Name: " +gymdb[gym].gymname 
-									       +"\nGym Location: " +gymdb[gym].gymlocation
-									      +"\nEX Eligible:" +gymdb[gym].exeligible
-									      +"\nNearby Intersection: "+gymdb[gym].nearbyintersection
-									      +"\nNotes: "+gymdb[gym].notes);
+									       +"\n**Gym Location:** " +gymdb[gym].gymlocation
+									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
+									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
+									      +"\n**Notes:** "+gymdb[gym].notes);
 			break;
 			   }
 		}
