@@ -37,4 +37,4 @@ client.on("message", async message => {
 });
 
 
-client.login('NDIxNDUzNDUxNTU4Mzg3NzEy.DY4kug.FChz2OzPIAt5kgloHOfmREgCxHk');
+client.login(' ');
