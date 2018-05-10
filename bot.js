@@ -29,13 +29,14 @@ client.on("message", async message => {
 									       +"\n**Gym Location:** " +gymdb[gym].gymlocation
 									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
-									      +"\n**Notes:** "+gymdb[gym].notes);
+									      +"\n**Notes:** "+gymdb[gym].notes)
+				.then(msg => {msg.delete(900000)}).catch((err) => {console.error(err)});;
 				found = 1
 				break;
 			}
 		}
 		if(found == 0){
-			message.channel.send("Gym Not Found");
+			message.channel.send("Gym Not Found").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});;
 		}
 
  	}
@@ -47,13 +48,14 @@ client.on("message", async message => {
 		for(var gym in gymdb){
 			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
 			   message.channel.send("**" +gymdb[gym].gymname 
-									       +": **" +gymdb[gym].gymlocation);
+									       +": **" +gymdb[gym].gymlocation)
+				.then(msg => {msg.delete(5400000)}).catch((err) => {console.error(err)});;
 				found = 1;
 				break;
 			}
 		}
 		if(found == 0){
-			message.channel.send("Gym Not Found");
+			message.channel.send("Gym Not Found").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});;
 		}
 
  	}
