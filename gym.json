@@ -1,0 +1,1299 @@
+{
+	"gym":[
+	  {
+		"Gym Name": "Allan Kerbal Park Dedication Gazebo",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.703159,-79.779598",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Brickyard Way",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Archway at Bramalea City Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.71485,-79.727157",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Dixie & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Ashurst Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.715798,-79.766979",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Kennedy & Rutherford",
+		"Notes": "Park at Ashurst Cresent and walk over"
+	  },
+	  {
+		"Gym Name": "Audrey Wolstenholme Memorial",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.683631,-79.757829",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Beatty Fleming Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.680734,-79.777206",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "McLaughlin & Campbell",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Black Forest North Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.747623,-79.755123",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Bramalea & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bonnie Glen Farm Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.759513,-79.829507",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Kennedy & Twistleton",
+		"Notes": "Not visible on Saugaton"
+	  },
+	  {
+		"Gym Name": "Bramalea Alliance Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.731666,-79.7216",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Grenoble & Central Park",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bramalea Baptist Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.714778,-79.729027",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Dixie & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bramalea Church of God",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.716351,-79.704686",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bramalea & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bramalea Go Station",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.70193,-79.691039",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bramalea & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bramalea Limited Community Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.722988,-79.756018",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "N Park & Nuffield",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bramalea Transit Terminal",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.718944,-79.720643",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Central Park & Queen",
+		"Notes": "Use parking at Bramalea City Centre near FreshCo"
+	  },
+	  {
+		"Gym Name": "Brampton Cemetery Church St Entrance Sign",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.694908,-79.754948",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Beech & Church",
+		"Notes": "Located inside a cemetery. Please be respectful"
+	  },
+	  {
+		"Gym Name": "Brampton Cineplex Silvercity Theatre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.732793,-79.767707",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Great Lakes & Bovaird",
+		"Notes": "Located inside Trinity Common. Watch for traffic during busy periods"
+	  },
+	  {
+		"Gym Name": "Brampton City Hall",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.684989,-79.759074",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Main & Queen",
+		"Notes": "Free parking under City Hall on weekends, first hour free on weekdays"
+	  },
+	  {
+		"Gym Name": "Brampton Fire Station 203",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.747508,-79.712672",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Chrysler & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Brampton Heritage Society Knowledge and service dedication tree",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.67191,-79.741665",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Peel Village",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Brampton Masonic Lodge",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.726403,-79.699298",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Torbram & Clark",
+		"Notes": "New gym added 12/21/2017"
+	  },
+	  {
+		"Gym Name": "Brampton Memorial Gardens",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.687608,-79.809985",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Chinguacousy & Bovaird",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Brampton Peace Garden",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.724886,-79.800397",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Conestoga & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Brampton Seventh Day Adventist Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.648064,-79.747536",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Creditstone & Kingknoll",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Brampton Snelgrove Community Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.731186,-79.821935",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & Mayfield",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Brampton Train Station",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.686962,-79.764745",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Main & Church",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Brampton Trestle",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.676126,-79.82386",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Commuter & Ganton Heights",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Breadner Way Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.689419,-79.824561",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Brisdale & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bridge on Etobicoke Creek Trail",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.671381,-79.739455",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Peel Village",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Bruce Beer Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.708534,-79.759693",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Rutherford & Bruce Beer",
+		"Notes": "New gym added 5/7"
+	  },
+	  {
+		"Gym Name": "Calvary Baptist Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.665467,-79.731183",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Main & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Calvert Park Gazebo",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.698175,-79.772781",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Camden Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.719119,-79.794122",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Conestoga & Sandalwood",
+		"Notes": "Park at Dalzell Ave and walk over"
+	  },
+	  {
+		"Gym Name": "Camden Park East",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.741676,-79.746701",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bramalea & Bovaird",
+		"Notes": "Not recommended for raids as gym is difficult to access. Gym located in wrong spot, not actually in a park"
+	  },
+	  {
+		"Gym Name": "Canada Post Office - Northgate Shopping Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.733748,-79.720623",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Grenoble & Central Park",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Carleton Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.706755,-79.717771",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Dixie & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Cassie Campbell Community Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.696835,-79.823299",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Chinguacousy & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Cassie Campbell Community Splashpad",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.696378,-79.824096",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Chinguacousy & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Cavendish Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.713069,-79.712567",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Crawley & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Century Billards Artwork",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.697094,-79.74895",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Kennedy & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Century Gardens",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.710039,-79.75661",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Rutherford & Archdekin",
+		"Notes": "Gym located at rear of rec centre"
+	  },
+	  {
+		"Gym Name": "Chant Valley Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.775298,-79.729409",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Airport & Braydon",
+		"Notes": "Park on Crockner Drive or Blaketon Court and walk over. Do not park at gym as road only has one lane"
+	  },
+	  {
+		"Gym Name": "Cheyne Pioneer Cemetery",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.657948,-79.722068",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & County Ct",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Child Hope Foundation",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.68758,-79.770434",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Main & Rosedale",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Chinguacousy Park - Mini Moo",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.723362,-79.721752",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Central Park & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Chinguacousy Park Boat Pavilion",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.723524,-79.724924",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Central Park & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Chinguacousy Park Tropical Garden",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.722832,-79.721118",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Central Park & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Chris Gibson Park Southern Entrance",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.681271,-79.771328",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "McLaughlin & Denison",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Christian Family Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.68471,-79.78294",
+		"EX Eligible": "No",
+		"Nearby Intersection": "McLaughlin & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Church of the Archangel Michael",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.736372,-79.827177",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & Mayfield",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Churchville Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.632977,-79.756877",
+		"EX Eligible": "No",
+		"Nearby Intersection": "",
+		"Notes": "New gym added 12/21/2017"
+	  },
+	  {
+		"Gym Name": "Churchville Park Playground",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.633332,-79.755139",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "",
+		"Notes": "New gym added 12/21/2017"
+	  },
+	  {
+		"Gym Name": "Churchville Village",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.639601,-79.76173",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Churchville & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Conservation Drive Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.731438,-79.808715",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Kennedy & Conservation",
+		"Notes": "Gate closed in winter. If closed, park at Dawnridge Trail and walk over"
+	  },
+	  {
+		"Gym Name": "Cowton Family Meadow Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.686653,-79.785221",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "McLaughlin & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Creditview Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.683661,-79.833583",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Creditview & McCrimmon OR Sandalwood and Robert Parkinson Dr",
+		"Notes": "Difficult to access due to ongoing construction"
+	  },
+	  {
+		"Gym Name": "Cresthaven Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.72531,-79.822206",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Hurontario & Cresthaven",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Dafoe Parkette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.656746,-79.75406",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Pearson & Charolais",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Damatta Park Gazebo",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.671705,-79.811594",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "James Potter Rd & Creditview Road",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "David Dash Memorial Baseball Diamond",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.678234,-79.760675",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Queen & McMurchy",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Dearbourne Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.713049,-79.698845",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bramalea & Dearbourne",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Dennison Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.756898,-79.822228",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Learmont & Larson Peak or Kennedy & Larson Peak",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Don Doan Trail Map In Earnscliffe Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.723473,-79.701501",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Eastbourne & Clark",
+		"Notes": "New gym added 12/21"
+	  },
+	  {
+		"Gym Name": "Donnelly East Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.734771,-79.782862",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Heart Lake & Sandalwood",
+		"Notes": "Parking lot closed in winter. If closed, park at Forestgrove Circle and walk over. Can only access parking lot while heading east on Sandalwood"
+	  },
+	  {
+		"Gym Name": "Dorchester Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.718755,-79.694452",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Dearbourne & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Dr Jose P. Rizal - National Filipino Hero",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.689626,-79.810454",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Chinguacousy & Bovaird",
+		"Notes": "Located inside a cemetery"
+	  },
+	  {
+		"Gym Name": "Duggan Park East",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.696808,-79.764983",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Centre & Vodden",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Earl Cook Parkette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.691613,-79.81899",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Chinguacousy & Fairhill",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Earnie Mitchell Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.689452,-79.756209",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Centre & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Earnscliffe Park North Entrance",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.72358,-79.708811",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Bramalea & Clark",
+		"Notes": "New gym added 12/21/2017"
+	  },
+	  {
+		"Gym Name": "Earnscliffe Recreation Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.723738,-79.699201",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Eastbourne & Clark",
+		"Notes": "New gym added 12/21/2017"
+	  },
+	  {
+		"Gym Name": "Ebenezer Schoolhouse",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.772041,-79.663653",
+		"EX Eligible": "No",
+		"Nearby Intersection": "The Gore & Ebenezer",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Eco-Friendly Demonstration Garden",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.663745,-79.721526",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & County Ct",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Ellen Mitchell Recreation Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.733356,-79.74396",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "MacKay & N Park",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Emmanuel United Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.714194,-79.70854",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bramalea & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "English Street Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.692338,-79.773924",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & English",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Etobicoke River Flood Control Channel Monument",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.6913,-79.758978",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Scott & Church",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Faith Gospel Tabernacle",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.677085,-79.818409",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Salvation Rd & Worthington Ave",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Fletcher's Parkette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.680457,-79.819819",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Worthington Ave & Springhurst Ave",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Flower City Campus Seniors Recreation Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.671403,-79.769772",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "McLaughlin & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "frank harkema park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.707806,-79.819536",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Sandalwood & Queen Mary Dr",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Fred Kee Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.694969,-79.788061",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Williams & Royal Orchard",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Gates of Countryside",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.771295,-79.756387",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Torbram & Father Tobin",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Gatesgill Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.700182,-79.78381",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Gatesgill",
+		"Notes": "Park at Gatesgill St and walk over"
+	  },
+	  {
+		"Gym Name": "Gazebo at Lakelands Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.718519,-79.761048",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Southlake & Bovaird",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Giant Chessboard",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.703641,-79.716974",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Dixie & Balmoral",
+		"Notes": "Not accessible for raids as it's inside the Rogers building"
+	  },
+	  {
+		"Gym Name": "Glenmanor Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.712951,-79.790911",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Sunforest & Wexford",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Greenmount Park (Middle, South Side Of Greenmount Rd)",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.731728,-79.713713",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Glenvale & Greenmount",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Guadara Dasmesh Darbar Temple",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.773954,-79.660794",
+		"EX Eligible": "No",
+		"Nearby Intersection": "The Gore & Ebenezer",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Hanover Park South",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.719011,-79.726046",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Central Park & Hanover",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Hansen Parkette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.710338,-79.763668",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Kennedy & Williams",
+		"Notes": "Gym closed from approximately 9pm-7am"
+	  },
+	  {
+		"Gym Name": "Heart Lake",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.739996,-79.791445",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Sandalwood & Heart Lake",
+		"Notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
+	  },
+	  {
+		"Gym Name": "Heartlake Conservation Area Information Sign",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.738711,-79.791855",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Sandalwood & Heart Lake",
+		"Notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
+	  },
+	  {
+		"Gym Name": "Heartlake Presbyterian Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.722108,-79.787387",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Kennedy & Ruth",
+		"Notes": "Church service Sundays 9am-12:30pm. Avoid raids during this time"
+	  },
+	  {
+		"Gym Name": "Heartlake United Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.721867,-79.79771",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Sunforest & Sandalwood",
+		"Notes": "Church service Sundays 10:30am. Due to concerns being raised, avoid raids during school hours on weekdays."
+	  },
+	  {
+		"Gym Name": "heartlake wise paw prints information sign",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.745691,-79.798188",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Sandalwood & Heart Lake",
+		"Notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
+	  },
+	  {
+		"Gym Name": "Hesp Valley - NW Entrance",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.701338,-79.820134",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Edenbrook Hill & River Rock",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Historic Brampton Flowertown of Canada",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.693538,-79.764202",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Ken Whillans & Vodden",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Hollowtree Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.705711,-79.76859",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Kennedy & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Howden Recreation Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.721357,-79.729052",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Central Park & Howden",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "In Memory of Nadia and Collette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.68893,-79.808645",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bovaird & Chinguacousy",
+		"Notes": "Located inside a cemetery. Please be respectful"
+	  },
+	  {
+		"Gym Name": "J.P. Hutton Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.701916,-79.824625",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Bovaird & Chinguacousy",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "James F.McCurry Victoria Park Arena",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.704955,-79.698071",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bramalea & Avondale",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Jefferson Park South",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.739714,-79.730773",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Bramalea & N Park",
+		"Notes": "Park at Jerome Crescent or Jacobs Square and walk over"
+	  },
+	  {
+		"Gym Name": "John Arthur Carroll Memorial Arboretum",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.684779,-79.750966",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Guest",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "John H. McCullough dedication tree",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.671121,-79.741081",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Peel Village",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Jorgen Jensen Parkette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.728162,-79.792842",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Kennedy & Sandalwood",
+		"Notes": "Park at Courtleigh Square and walk over"
+	  },
+	  {
+		"Gym Name": "Kennedy Road Tabernacle",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.702957,-79.759614",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Kennedy & Vodden",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Kenneth Chisholm Pond",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.687385,-79.823989",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bovaird & Worthington Ave",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Kiwanis Memorial Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.668122,-79.735679",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Main & Bartley Bull",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Korean War Memorial",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.641889,-79.749163",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Mavis & Chinguacousy",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Lake Louise Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.67922,-79.812627",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Lake Louise Dr & Willick Place",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Lascelles Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.721959,-79.740441",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Dixie & Lascelles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Laurelcrest Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.712078,-79.739158",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Laurelcrest & Vodden",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Laurelcrest Park South",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.710834,-79.733244",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Laurelcrest & Queen",
+		"Notes": "Park at Lombardy Crescent and walk over"
+	  },
+	  {
+		"Gym Name": "Leander Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.720095,-79.744515",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Howden & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Leon's Bench",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.688976,-79.756058",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Centre & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Little Family Way Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.752473,-79.754801",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Bramalea & Sandalwood",
+		"Notes": "Park at Rockrose Drive or Sand Cherry Crescent and walk over. Do not park on Bramalea Road"
+	  },
+	  {
+		"Gym Name": "Loafers Lake Recreation Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.726078,-79.798605",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Conestoga & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Lougheed Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.642018,-79.753306",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Clementine & Pantomine",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Malta Parkette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.6592,-79.730652",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Malta & Sir Lou",
+		"Notes": "Gather on pathway, not in front of the school"
+	  },
+	  {
+		"Gym Name": "Manitou Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.734828,-79.754071",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Dixie & Bovaird",
+		"Notes": "Park at Manitou Crescent and walk over"
+	  },
+	  {
+		"Gym Name": "Manor Gazebo",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.654588,-79.742206",
+		"EX Eligible": "No",
+		"Nearby Intersection": "McLaughlin & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Matthew Cation Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.705658,-79.829305",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Edenbrook Hill & Earlsbridge Blvd",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Mayfield Park Water Tower",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.72996,-79.828426",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Cresthaven & Mayfield",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Meadowvalle Cemetery Map",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.639239,-79.745022",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Mavis & Chinguacousy",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Milestone of Labour",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.672379,-79.765878",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "McLaughlin & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Millstone Parkette",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.646958,-79.753417",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Mavis & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Minaker Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.771911,-79.67257",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "The Gore & Don Minaker",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Morris Kerbel Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.718385,-79.789277",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Conestoga & Ruth",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Mount Pleasant GO Train Station",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.675374,-79.820869",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bleasdale & Commuter",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Mount Pleasant Station North Entrance",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.675013,-79.821561",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bleasdale & Commuter",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Mount Pleasant West gO Train Access Entrance",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.6747,-79.823387",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Lagerfield & Bovaird",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Mt Pleasant GO Transit Station",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.682844,-79.828135",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Creditview & Fairhill",
+		"Notes": "Gym located in wrong spot. Not actually at the train station. Park at Platform Cres and walk over"
+	  },
+	  {
+		"Gym Name": "Natives",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.73053,-79.764884",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Great Lakes & Bovaird",
+		"Notes": "Located inside Trinity Common. Watch for traffic during busy periods"
+	  },
+	  {
+		"Gym Name": "Norman Price's Pond",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.674042,-79.805793",
+		"EX Eligible": "No",
+		"Nearby Intersection": "James Potter & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "North Bramalea Presbyterian Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.734539,-79.742407",
+		"EX Eligible": "No",
+		"Nearby Intersection": "MacKay & N Park",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Northwood Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.676023,-79.778908",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Gretna & Parkway",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Parcourse FitCircuit Station",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.704436,-79.714766",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Dixie & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Parks Maintenance and Operations",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.667062,-79.78921",
+		"EX Eligible": "No",
+		"Nearby Intersection": "James Potter & Daviselm",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Parr Lake North",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.716066,-79.747152",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Howden & La France",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Peleg Howland Valley Park Entrance - Bonistel Fork",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.698038,-79.808098",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "McLaughlin & Lormel Gate",
+		"Notes": "No parking, have to walk to the gym"
+	  },
+	  {
+		"Gym Name": "Powerade Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.666926,-79.709174",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Kennedy & First Gulf",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Professor Lake Recreational Centre",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.746396,-79.733049",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Jameson & N Park",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Roehampton Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.66067,-79.74185",
+		"EX Eligible": "No",
+		"Nearby Intersection": "McMurchy & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Rosalea Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.689816,-79.759114",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Union & Church",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Rose Theatre Fountain",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.686677,-79.760078",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Main & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Royal Canadian Legion",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.68521,-79.751511",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Guest",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Royal Orchard Channel",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.693238,-79.782327",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Royal Orchard & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Rusty Chair (Art)",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.734072,-79.707253",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Torbram & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Sheffield Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.711187,-79.781072",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Conestoga & Bovaird",
+		"Notes": "New gym added 2/15/2018. Park at Salem Ct and walk over"
+	  },
+	  {
+		"Gym Name": "Sheridan College-Brampton",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.655589,-79.738439",
+		"EX Eligible": "No",
+		"Nearby Intersection": "McLaughlin & Steeles",
+		"Notes": "School campus"
+	  },
+	  {
+		"Gym Name": "Sheridan Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.693873,-79.75657",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Centre & Church",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Soccer Mural",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.743562,-79.770024",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Dixie & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "South Fletcher's Sportplex",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.652967,-79.734182",
+		"EX Eligible": "No",
+		"Nearby Intersection": "McLaughlin & Ray Lawson",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "St. Bartholomew's United Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.680348,-79.741147",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Harper & Pleaseley",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "St. George Syriac Orthodox Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.634261,-79.767494",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Churchville & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "St. John Fisher Catholic Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.710345,-79.711455",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Avondale & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "St. Joseph Of Nazereth Anglican Church",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.70955,-79.71243",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Avondale & Balmoral",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "St. Marguerite d'Youville Parish",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.765229,-79.749409",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Torbram & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Stafford Woods",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.728142,-79.81132",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Braidwood Lake & Conservation",
+		"Notes": "Park at plaza behind Zion Cemetery or Ridelle Ct and walk over"
+	  },
+	  {
+		"Gym Name": "Stanford Spire",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.691108,-79.804053",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bovaird & Edenbrook Hill",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Statue of the Goddess Athena",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.740338,-79.692304",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Airport & Coventry",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Steacy Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.678064,-79.749672",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Harold",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Steam Punk Clockworks",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.681175,-79.761979",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Elliott & Wellington",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Talbot Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.689388,-79.776417",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Vodden & English",
+		"Notes": "Park on Pleasantville Ave and walk over"
+	  },
+	  {
+		"Gym Name": "Tara Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.69759,-79.77541",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Teramoto Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.668196,-79.784384",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Chinguacousy & Queen",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Terry Fox Track and Field Stadium",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.7258,-79.71971",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Bramalea & Queen",
+		"Notes": "Must park at one of the parking lots at Chinguacousy Park and walk over"
+	  },
+	  {
+		"Gym Name": "The Apple Factory",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.667055,-79.829909",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Mississauga & Bovaird",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "The Berean Church of God",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.713401,-79.800647",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & Fisherman",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "The Dale Estate",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.694174,-79.763813",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Ken Whillans & Vodden",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "The Old Shoe Factory",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.686655,-79.766877",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Mill & Church",
+		"Notes": "Can park at Brampton GO station"
+	  },
+	  {
+		"Gym Name": "Toronto Temple Of The Church Of Jerusalem Christmas West Water Fountain",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.744006,-79.745477",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Bramalea & Bovaird",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Totem Pole",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.703404,-79.716638",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Dixie & Balmoral",
+		"Notes": "Not accessible for raids as it's inside the Rogers building"
+	  },
+	  {
+		"Gym Name": "Unity Windmill",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.654495,-79.741889",
+		"EX Eligible": "No",
+		"Nearby Intersection": "McLaughlin & Steeles",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Valleybrook Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.700424,-79.775713",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Valleywood",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.744322,-79.831842",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & Highway 410",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "W.A. Bates Pond",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.691252,-79.815543",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Chinguacousy & Fandor Way",
+		"Notes": "Have to park on the street or plaza and walk over to the gym"
+	  },
+	  {
+		"Gym Name": "Wellington, In Memory of Crowne",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.768639,-79.730143",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Airport & Sandalwood",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "White Spruce Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.731284,-79.774343",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Heart Lake & Copperfield",
+		"Notes": "Gate may be closed in winter. If closed, park at Copperfield Rd and walk over"
+	  },
+	  {
+		"Gym Name": "Whitewash Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.684692,-79.801046",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Chinguacousy & Williams",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Winterfold Park",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.713668,-79.773127",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Kennedy & Bovaird",
+		"Notes": "Park at Simmons Blvd or Winterfold Drive and walk over"
+	  },
+	  {
+		"Gym Name": "Wok of Fame Guardian",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.659794,-79.726115",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & Ray Lawson",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Woodview Park East",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.672732,-79.760112",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "McLaughlin & Harold",
+		"Notes": ""
+	  },
+	  {
+		"Gym Name": "Young Canada Celebration Sculpture",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.684318,-79.759185",
+		"EX Eligible": "Yes",
+		"Nearby Intersection": "Main & Queen",
+		"Notes": "Free parking under City Hall on weekends"
+	  },
+	  {
+		"Gym Name": "Zion Cemetery",
+		"Gym Location": "https://www.google.com/maps/search/?api=1&query=43.726159,-79.813347",
+		"EX Eligible": "No",
+		"Nearby Intersection": "Hurontario & Conservation",
+		"Notes": "Parking available at plaza behind the cemetery"
+	  }
+	]
+}
