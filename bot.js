@@ -48,7 +48,7 @@ client.on("message", async message => {
 	
 	if(command == '!findfull'){
 		var gyminput = args.join(" ");
-		message.reply('test: '+args[1]);
+		message.reply('test: '+gyminput);
 		var gymdb = gyms.gym;
 		for(var gym in gymdb){
 			if(gym.gymname === 'Ashurst Park'){
