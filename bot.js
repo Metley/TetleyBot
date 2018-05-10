@@ -50,13 +50,13 @@ client.on("message", async message => {
 		var gyminput = args.join(" ");
 		message.reply('test: '+gyminput);
 		var gymdb = gyms.gym;
-		for(var gym in gymdb){
-			if(gym.gymname === 'Ashurst Park'){
-			   message.guild.channels.find("name", "general").send("GymName: " +gym.gymname 
-									       +"\nGymLocation: " +gym.gymlocation);
+		var size = gymdb.length
+		for(var i = 0, i < size, i++){
+			if(gymdb[i].gymname === 'Ashurst Park'){
+			   message.guild.channels.find("name", "general").send("GymName: " +gymdb[i].gymname 
+									       +"\nGymLocation: " +gymdb[i].gymlocation);
 			break;
 			   }
-			message.guild.channels.find("name", "general").send("GymName: " +gym.gymname);
 		}
 		message.guild.channels.find("name", "general").send("Test: " + gymdb[0].gymname);
  	}
