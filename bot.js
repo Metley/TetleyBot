@@ -48,8 +48,8 @@ client.on("message", async message => {
 			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
 			   message.channel.send("**" +gymdb[gym].gymname 
 									       +": **" +gymdb[gym].gymlocation);
-				break;
 				found = 1;
+				break;
 			}
 		}
 		if(found == 0){
