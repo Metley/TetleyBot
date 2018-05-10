@@ -25,13 +25,17 @@ client.on("message", async message => {
         count = 1;
     }
 	
+	
     if(message.content == '!find'){
 	message.guild.channels.find("name", "general").send('hello');
-	try{
-		let gymdb = gyms[gym];
-	} catch {message.guild.channels.find("name", "general").send('failed to get from json');}
+	let gymdb = gyms[gym].catch(error => message.guild.channels.find("name", "general").send(`failed to get from json : ${error}`));
 	message.guild.channels.find("name", "general").send("Test: " + gymdb);
      }
+	if(message.content == '!test'){
+		message.guild.channels.find("name", "general").send('test');
+		var gymdb = gyms.gym;
+		message.guild.channels.find("name", "general").send("Test: " + gymdb[0].gymname);
+ 	}	 
 
 });
 
