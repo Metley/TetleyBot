@@ -51,10 +51,10 @@ client.on("message", async message => {
 		message.reply('testing findfull: '+gyminput);
 		var gymdb = gyms.gym;
 		var size = gymdb.length
-		for(var i = 0, i < size, i++){
-			if(gymdb[i].gymname === 'Ashurst Park'){
-			   message.guild.channels.find("name", "general").send("GymName: " +gymdb[i].gymname 
-									       +"\nGymLocation: " +gymdb[i].gymlocation);
+		for(var gym in gymdb){
+			if(gymdb[gym].gymname === 'Ashurst Park'){
+			   message.guild.channels.find("name", "general").send("GymName: " +gymdb[gym].gymname 
+									       +"\nGymLocation: " +gymdb[gym].gymlocation);
 			break;
 			   }
 		}
