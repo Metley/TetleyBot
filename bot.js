@@ -1,8 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const schedule = require('node-schedule');
-const fs = require("fs");
-gyms = require ("./gym.json");
+const gyms = require ("./gym.json");
 var count = 1;
 
 
@@ -10,15 +9,7 @@ client.on("message", async message => {
 
     if(message.content.indexOf('!') !== 0) return;
     if(message.channel.id !== '424656070892322826') return;
-    
-	if(message.content == '!find'){
-		message.guild.channels.find("name", "general").send('hello');
-		let gymdb = gyms[gym];
-		message.guild.channels.find("name", "general").send("Test: " + gymdb);
-	}
-	
-
-    
+        
 
     if (message.content == '!startgymclock') {
         message.channel.sendMessage('Clock has started');
@@ -32,9 +23,15 @@ client.on("message", async message => {
         //message.channel.sendMessage
         message.guild.channels.find("name", "general").send('Wipe has occured time to reset. ðŸ˜¢');
         count = 1;
-	}
+    }
+	
+    if(message.content == '!find'){
+	message.guild.channels.find("name", "general").send('hello');
+	let gymdb = gyms[gym];
+	message.guild.channels.find("name", "general").send("Test: " + gymdb);
+     }
 
 });
 
 
-client.login('process.env.BOT_TOKEN');
+client.login(process.env.BOT_TOKEN);
