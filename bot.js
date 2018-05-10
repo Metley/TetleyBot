@@ -48,10 +48,10 @@ client.on("message", async message => {
 	
 	if(command == '!findfull'){
 		var gyminput = args[1];
-		message.guild.channels.find("name", "general").send('test');
+		message.reply("name", "general").send('test: '+args[1]);
 		var gymdb = gyms.gym;
 		for(var gym in gymdb){
-			if((gym.gymname).equals('Ashurst Park')){
+			if(gym.gymname === 'Ashurst Park'){
 			   message.guild.channels.find("name", "general").send("GymName: " +gym.gymname 
 									       +"\nGymLocation: " +gym.gymlocation);
 			break;
