@@ -9,6 +9,9 @@ client.on("message", async message => {
 
     if(message.content.indexOf('!') !== 0) return;
     if(message.channel.id !== '424656070892322826') return;
+	
+    const args = message.content.split(' ');
+    const command = args[0];
         
 
     if (message.content == '!startgymclock') {
@@ -26,13 +29,11 @@ client.on("message", async message => {
     }
 	
 	
-    if(message.content == '!find'){
+    if(message.content == '!test'){
 	message.guild.channels.find("name", "general").send('hello');
-	let gymdb = gyms[gym].catch(error => message.guild.channels.find("name", "general").send(`failed to get from json : ${error}`));
-	message.guild.channels.find("name", "general").send("Test: " + gymdb);
      }
-	if(message.content == '!test'){
-		var
+	if(command == '!find'){
+		var gyminput = args[1];
 		message.guild.channels.find("name", "general").send('test');
 		var gymdb = gyms.gym;
 		for(var gym in gymdb){
