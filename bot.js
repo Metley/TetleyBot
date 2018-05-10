@@ -8,7 +8,7 @@ var count = 1;
 client.on("message", async message => {
 
     if(message.content.indexOf('!') !== 0) return;
-    if(message.channel.id !== '424656070892322826') return;
+    //if(message.channel.id !== '424656070892322826') return;
 	
     const args = message.content.split(' ');
     const command = args.shift();
@@ -32,33 +32,22 @@ client.on("message", async message => {
     if(message.content == '!test'){
 	message.guild.channels.find("name", "general").send('hello');
      }
-	if(command == '!find'){
-		var gyminput = args[1];
-		message.guild.channels.find("name", "general").send('test');
-		var gymdb = gyms.gym;
-		for(var gym in gymdb){
-			if((gym.gymname).includes(gyminput)){
-			   message.guild.channels.find("name", "general").send("GymName: " +gym.gymname 
-									       +"\nGymLocation: " +gym.gymlocation);
-			break;
-			   }
-		}
-		message.guild.channels.find("name", "general").send("Test: " + gymdb[0].gymname);
- 	}
 	
-	if(command == '!findfull'){
+	
+	if(command == '!find'){
 		var gyminput = args.join(" ");
-		message.reply('testing findfull: '+gyminput);
 		var gymdb = gyms.gym;
-		var size = gymdb.length
 		for(var gym in gymdb){
 			if(gymdb[gym].gymname.includes(gyminput)){
-			   message.guild.channels.find("name", "general").send("GymName: " +gymdb[gym].gymname 
-									       +"\nGymLocation: " +gymdb[gym].gymlocation);
+			   message.guild.channels.find("name", "general").send("Gym Name: " +gymdb[gym].gymname 
+									       +"\nGym Location: " +gymdb[gym].gymlocation
+									      +"\nEX Eligible:" +gymdb[gym].exeligible
+									      +"\nNearby Intersection: "+gymdb[gym].nearbyintersection
+									      +"\nNotes: "+gymdb[gym].notes);
 			break;
 			   }
 		}
-		message.guild.channels.find("name", "general").send("Test: " + gymdb[0].gymname);
+
  	}
 
 });
