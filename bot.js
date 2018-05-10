@@ -27,7 +27,9 @@ client.on("message", async message => {
 	
     if(message.content == '!find'){
 	message.guild.channels.find("name", "general").send('hello');
-	let gymdb = gyms[gym];
+	try{
+		let gymdb = gyms[gym];
+	} catch {message.guild.channels.find("name", "general").send('failed to get from json');}
 	message.guild.channels.find("name", "general").send("Test: " + gymdb);
      }
 
