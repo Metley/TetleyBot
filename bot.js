@@ -52,7 +52,7 @@ client.on("message", async message => {
 		var gymdb = gyms.gym;
 		var size = gymdb.length
 		for(var gym in gymdb){
-			if(gymdb[gym].gymname === 'Ashurst Park'){
+			if(gymdb[gym].gymname.includes(gyminput)){
 			   message.guild.channels.find("name", "general").send("GymName: " +gymdb[gym].gymname 
 									       +"\nGymLocation: " +gymdb[gym].gymlocation);
 			break;
