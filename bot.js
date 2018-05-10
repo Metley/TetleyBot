@@ -35,11 +35,11 @@ client.on("message", async message => {
 	
 	
 	if(command == '!find'){
-		var gyminput = args.join(" ");
+		var gyminput = args.join(" ").toLowerCase();
 		var gymdb = gyms.gym;
 		for(var gym in gymdb){
-			if(gymdb[gym].gymname.includes(gyminput)){
-			   message.guild.channels.find("name", "general").send("Gym Name: " +gymdb[gym].gymname 
+			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
+			   message.guild.channels.find("name", "general").send("**Gym Name:** " +gymdb[gym].gymname 
 									       +"\n**Gym Location:** " +gymdb[gym].gymlocation
 									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
