@@ -32,8 +32,16 @@ client.on("message", async message => {
 	message.guild.channels.find("name", "general").send("Test: " + gymdb);
      }
 	if(message.content == '!test'){
+		var
 		message.guild.channels.find("name", "general").send('test');
 		var gymdb = gyms.gym;
+		for(var gym in gymdb){
+			if(gym.gymname.includes(gyminput){
+			   message.guild.channels.find("name", "general").send("GymName: " +gym.gymname 
+									       +"\nGymLocation: " +gym.gymlocation);
+			break;
+			   }
+		}
 		message.guild.channels.find("name", "general").send("Test: " + gymdb[0].gymname);
  	}	 
 
