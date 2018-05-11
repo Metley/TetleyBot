@@ -596,6 +596,13 @@
 		"notes": ""
 	  },
 	  {
+		"gymname": "Gore Meadows Community Centre and Brampton Library",
+		"gymlocation": "https://www.google.com/maps/search/?api=1&query=43.795066,-79.694626",
+		"exeligible": "Yes",
+		"nearbyintersection": "The Gore & Castlemore",
+		"notes": ""
+	  },
+	  {
 		"gymname": "Greenmount Park (Middle, South Side Of Greenmount Rd)",
 		"gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731728,-79.713713",
 		"exeligible": "No",
@@ -1279,6 +1286,13 @@
 		"gymlocation": "https://www.google.com/maps/search/?api=1&query=43.672732,-79.760112",
 		"exeligible": "Yes",
 		"nearbyintersection": "McLaughlin & Harold",
+		"notes": ""
+	  },
+	  {
+		"gymname": "Word of God Assemblies",
+		"gymlocation": "https://www.google.com/maps/search/?api=1&query=43.701121,-79.796755",
+		"exeligible": "No",
+		"nearbyintersection": "Van Kirk & Sandalwood",
 		"notes": ""
 	  },
 	  {
