@@ -10,7 +10,7 @@ client.on("message", async message => {
     //if(message.channel.id !== '424656070892322826') return;
 	
     const args = message.content.split(' ');
-    const command = args.shift();
+    const command = args.shift().toLowerCase();
         
 
    		
@@ -59,6 +59,14 @@ client.on("message", async message => {
 		}
 
  	}
+	
+	if(command == '!exsheet'){
+		message.channel.send("Sheet: http://goo.gl/xauVqj");
+	}
+	
+	if(command == '!exmap'){
+		message.channel.send("Map: https://goo.gl/GNG44U");
+	}
 	
 	
 
