@@ -60,6 +60,30 @@ client.on("message", async message => {
 
  	}
 	
+	if(command == '!postm'){
+		var gyminput = args.join(" ").toLowerCase();
+		var locations = gyminput.split('+');
+		var gymdb = gyms.gym;
+		var output = '';
+		var found = 0;
+		
+		for(var i=0; i<locations.length; i++){
+			for(var gym in gymdb){
+				if(gymdb[gym].gymname.toLowerCase().includes(locations[i])){
+				   output += "**" +gymdb[gym].gymname +": **" +gymdb[gym].gymlocation+"\n";
+					found = 1;
+					break;
+				}
+			}
+		}
+		
+		if(output.length == 0){
+			output = "Gyms Not Found";
+		}
+		
+		message.channel.send(''+output).then(msg => {msg.delete(5400000)}).catch((err) => {console.error(err)});	
+ 	}
+	
 	if(command == '!exsheet'){
 		message.channel.send("Sheet: http://goo.gl/xauVqj");
 	}
