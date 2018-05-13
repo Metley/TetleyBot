@@ -30,13 +30,13 @@ client.on("message", async message => {
 									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
 									      +"\n**Notes:** "+gymdb[gym].notes)
-				.then(msg => {msg.delete(900000)}).catch((err) => {console.error(err)});;
+				.then(msg => {msg.delete(900000)}).catch((err) => {console.error(err)});
 				found = 1
 				break;
 			}
 		}
 		if(found == 0){
-			message.channel.send("Gym Not Found").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});;
+			message.channel.send("Gym Not Found").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});
 		}
 		
 		if(message.channel.id == '444267666811650058'){
