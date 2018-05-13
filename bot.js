@@ -70,7 +70,8 @@ client.on("message", async message => {
 		for(var i=0; i<locations.length; i++){
 			for(var gym in gymdb){
 				if(gymdb[gym].gymname.toLowerCase().includes(locations[i])){
-				   output += "**" +gymdb[gym].gymname +": **" +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n";
+				   output += "**" +gymdb[gym].gymname +": **" 
+					   +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n\n";
 					found = 1;
 					break;
 				}
