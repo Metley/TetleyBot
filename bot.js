@@ -38,6 +38,11 @@ client.on("message", async message => {
 		if(found == 0){
 			message.channel.send("Gym Not Found").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});;
 		}
+		
+		if(message.channel.id == '444267666811650058'){
+			//delete after 5min
+			message.delete(300000).catch((err) => {console.error(err)});
+		}
 
  	}
 	
@@ -83,6 +88,11 @@ client.on("message", async message => {
 		}
 		
 		message.channel.send(''+output).then(msg => {msg.delete(5400000)}).catch((err) => {console.error(err)});	
+		
+		if(message.channel.id == '444267666811650058'){
+			//delete after 5min
+			message.delete(300000).catch((err) => {console.error(err)});
+		}
  	}
 	
 	if(command == '!exsheet'){
