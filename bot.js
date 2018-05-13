@@ -41,7 +41,7 @@ client.on("message", async message => {
 
  	}
 	
-	if(command == '!post'){
+	if(command == '!postx'){
 		var gyminput = args.join(" ").toLowerCase();
 		var gymdb = gyms.gym;
 		var found = 0;
@@ -60,7 +60,7 @@ client.on("message", async message => {
 
  	}
 	
-	if(command == '!postm'){
+	if(command == '!post'){
 		var gyminput = args.join(" ").toLowerCase();
 		var locations = gyminput.split('+');
 		var gymdb = gyms.gym;
@@ -70,7 +70,7 @@ client.on("message", async message => {
 		for(var i=0; i<locations.length; i++){
 			for(var gym in gymdb){
 				if(gymdb[gym].gymname.toLowerCase().includes(locations[i])){
-				   output += "**" +gymdb[gym].gymname +": **" +gymdb[gym].gymlocation+"\n";
+				   output += "**" +gymdb[gym].gymname +": **" +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n";
 					found = 1;
 					break;
 				}
