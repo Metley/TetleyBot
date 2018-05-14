@@ -14,7 +14,7 @@ client.on("message", async message => {
         
 
    		
-    if(message.content == '!test'){
+    if((message.content == '!test')&&(message.auther.id == '327162272990363648')){
 		message.guild.channels.find("name", "general").send('hello');
     }
 	
@@ -40,6 +40,13 @@ client.on("message", async message => {
 		}
 		
 		if(message.channel.id == '444267666811650058'){
+			if(gyminput.includes('sock')){
+        			message.react('🇸').then(async function (){
+					await message.react('🇴').then(console.log).catch(console.error);
+					await message.react('🇨').then(console.log).catch(console.error);
+					await message.react('🇰').then(console.log).catch(console.error);
+				}).catch(console.error);  
+}
 			//delete after 5min
 			message.delete(300000).catch((err) => {console.error(err)});
 		}
