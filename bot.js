@@ -14,7 +14,7 @@ client.on("message", async message => {
         
 
    		
-    if((message.content == '!test')&&(message.auther.id == '327162272990363648')){
+    if((message.content == '!test')&&(message.author.id == '327162272990363648')){
 		message.guild.channels.find("name", "general").send('hello');
     }
 	
