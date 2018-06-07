@@ -20,9 +20,9 @@ client.on("message", async message => {
 	
 	if((command == '!nicknamelist')&&(message.author.id == '327162272990363648')){
 		var gymdb = gyms.gym;
-		var output = '';
+		message.channel.send("**__" +"Gym Nickname List:"+"__**").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
 		for(var gym in gymdb){
-			message.channel.send("**" +gymdb[gym].gymname +" - " +gymdb[gym].nickname+"**").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
+			message.channel.send("`" +gymdb[gym].gymname +" - " +gymdb[gym].nickname+"`").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
 		}
 		
 	}
