@@ -12,11 +12,16 @@ client.on("message", async message => {
     const args = message.content.split(' ');
     const command = args.shift().toLowerCase();
         
+	
 
    		
     if((message.content == '!test')&&(message.author.id == '327162272990363648')){
 		message.guild.channels.find("name", "general").send('hello');
     }
+	
+	if((message.toLowerCase().includes('more eggs'))&&(message.channel.id == '426757841580195850')){
+		message.react('LegendaryEgg:418884815064924173').then(console.log).catch(console.error);
+    	}
 	
 	if((command == '!nicknamelist')&&(message.author.id == '327162272990363648')){
 		var gymdb = gyms.gym;
