@@ -18,6 +18,15 @@ client.on("message", async message => {
 		message.guild.channels.find("name", "general").send('hello');
     }
 	
+	if((command == '!nicknamelist')&&(message.author.id == '327162272990363648')){
+		var gymdb = gyms.gym;
+		var output = '';
+		for(var gym in gymdb){
+			output += "**" +gymdb[gym].gymname +" - " +gymdb[gym].nickname+"**\n";
+		}
+		message.channel.send(''+output).then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
+	}
+	
 	
 	if(command == '!find'){
 		var gyminput = args.join(" ").toLowerCase();
