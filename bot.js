@@ -23,18 +23,37 @@ client.on("message", async message => {
 		var gyminput = args.join(" ").toLowerCase();
 		var gymdb = gyms.gym;
 		var found = 0;
+		var ncheck = true;
 		for(var gym in gymdb){
-			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
+			if(gymdb[gym].nickname.toLowerCase().includes(gyminput)){
 			   message.channel.send("**Gym Name:** " +gymdb[gym].gymname 
-									       +"\n**Gym Location:** " +gymdb[gym].gymlocation
+									       +"\n**Nickname:** " +gymdb[gym].nickname
+									      +"\n**Gym Location:** " +gymdb[gym].gymlocation
 									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
 									      +"\n**Notes:** "+gymdb[gym].notes)
 				.then(msg => {msg.delete(900000)}).catch((err) => {console.error(err)});
 				found = 1
+				ncheck = false
 				break;
 			}
 		}
+		if(ncheck){
+			for(var gym in gymdb){
+				if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
+				   message.channel.send("**Gym Name:** " +gymdb[gym].gymname 
+										       +"\n**Nickname:** " +gymdb[gym].nickname
+										      +"\n**Gym Location:** " +gymdb[gym].gymlocation
+										      +"\n**EX Eligible:** " +gymdb[gym].exeligible
+										      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
+										      +"\n**Notes:** "+gymdb[gym].notes)
+					.then(msg => {msg.delete(900000)}).catch((err) => {console.error(err)});
+					found = 1
+					break;
+				}
+			}
+		}
+	
 		if(found == 0){
 			message.channel.send("Gym Not Found").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});
 		}
@@ -78,15 +97,28 @@ client.on("message", async message => {
 		var gymdb = gyms.gym;
 		var output = '';
 		var found = 0;
+		var ncheck = true;
 		
 		for(var i=0; i<locations.length; i++){
+			ncheck = true;
 			for(var gym in gymdb){
-				if(gymdb[gym].gymname.toLowerCase().includes(locations[i])){
+				if(gymdb[gym].nickname.toLowerCase().includes(locations[i])){
 				   output += "**" +gymdb[gym].gymname +": **" 
 					   +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n\n";
 					found = 1;
+					ncheck = false;
 					break;
 				}
+			}
+			if(ncheck){
+				for(var gym in gymdb){
+					if(gymdb[gym].gymname.toLowerCase().includes(locations[i])){
+					   output += "**" +gymdb[gym].gymname +": **" 
+						   +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n\n";
+						found = 1;
+						break;
+					}
+				}	
 			}
 		}
 		
