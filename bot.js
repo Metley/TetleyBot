@@ -6,7 +6,7 @@ const gyms = require ("./gym.json");
 
 client.on("message", async message => {
 
-    if(message.content.indexOf('!') !== 0) return;
+    //if(message.content.indexOf('!') !== 0) return;
     //if(message.channel.id !== '424656070892322826') return;
 	
     const args = message.content.split(' ');
