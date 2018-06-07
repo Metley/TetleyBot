@@ -35,9 +35,9 @@ client.on("message", async message => {
 	
 	if((command == '!flipcoin') &&(checkStaff(message.author.id) != 'fart')){
 		if(Math.floor((Math.random() * 2) + 1) == 1){
-			message.channel.send("Pokecoin:418847475298861058 heads");
+			message.channel.send("heads");
 		} else {
-			message.channel.send("Pokecoin:418847475298861058 tails");
+			message.channel.send("tails");
 		}
 	}
 	
