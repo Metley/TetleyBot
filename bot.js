@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const schedule = require('node-schedule');
 const gyms = require ("./gym.json");
+const staffs = require ("./staff.json");
 
 
 client.on("message", async message => {
@@ -30,6 +31,14 @@ client.on("message", async message => {
 			message.channel.send("`" +gymdb[gym].gymname +" - " +gymdb[gym].nickname+"`").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
 		}
 		
+	}
+	
+	if((command == '!flipcoin') &&(checkStaff(message.author.id) != 'fart')){
+		if(Math.floor((Math.random() * 2) + 1) == 1){
+			message.channel.send("heads");
+		} else {
+			message.channel.send("tails");
+		}
 	}
 	
 	
@@ -159,6 +168,17 @@ client.on("message", async message => {
 	
 
 });
+
+function checkStaff(person){
+	var staffdb = staffs.staff;
+	
+	for(var staff in staffdb){
+		if(staffdb[staff].id == person){
+			return staffdb[staff].title;
+		}
+	}
+	return fart;
+}
 
 
 client.login(process.env.BOT_TOKEN);
