@@ -19,7 +19,7 @@ client.on("message", async message => {
 		message.guild.channels.find("name", "general").send('hello');
     }
 	
-	if((message.toLowerCase().includes('more eggs'))&&(message.channel.id == '426757841580195850')){
+	if((message.content.toLowerCase().includes('more eggs'))&&(message.channel.id == '426757841580195850')){
 		message.react('LegendaryEgg:418884815064924173').then(console.log).catch(console.error);
     	}
 	
