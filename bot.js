@@ -22,9 +22,9 @@ client.on("message", async message => {
 		var gymdb = gyms.gym;
 		var output = '';
 		for(var gym in gymdb){
-			output += "**" +gymdb[gym].gymname +" - " +gymdb[gym].nickname+"**\n";
+			message.channel.send("**" +gymdb[gym].gymname +" - " +gymdb[gym].nickname+"**").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
 		}
-		message.channel.send(''+output).then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
+		
 	}
 	
 	
