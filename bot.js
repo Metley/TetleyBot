@@ -24,7 +24,7 @@ client.on("message", async message => {
 		message.react('LegendaryEgg:418884815064924173').then(console.log).catch(console.error);
     	}
 	
-	if((message.content.toLowerCase().includes('@everyone'))&&(checkStaff(message.author.id) != 'fart')){
+	if((message.content.toLowerCase().includes('@everyone'))&&(checkStaff(message.author.id) == 'fart')){
 		message.react('🚫').then(console.log).catch(console.error);
     	}
 	
