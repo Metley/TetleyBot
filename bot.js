@@ -181,7 +181,7 @@ function checkStaff(person){
 			return staffdb[staff].title;
 		}
 	}
-	return fart;
+	return 'fart';
 }
 
 
