@@ -24,6 +24,10 @@ client.on("message", async message => {
 		message.react('LegendaryEgg:418884815064924173').then(console.log).catch(console.error);
     	}
 	
+	if((message.content.toLowerCase().includes('@everyone'))&&(checkStaff(message.author.id) != 'fart')){
+		message.react('🚫').then(console.log).catch(console.error);
+    	}
+	
 	if((command == '!nicknamelist')&&(message.author.id == '327162272990363648')){
 		var gymdb = gyms.gym;
 		message.channel.send("**__" +"Gym Nickname List:"+"__**").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
