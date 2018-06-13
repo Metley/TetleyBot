@@ -45,6 +45,16 @@ client.on("message", async message => {
 		}
 	}
 	
+	if((command == '!createquadrants')&&(message.author.id == '327162272990363648')){
+		message.guild.channels.find("name", "quadrant-assignment").send('Adding a 👍 reaction to the Quadrant will subsribe you to receive notifications on all raids happening in that area. \nRemoving your reaction will unscrible you from any further notification, if your reacion is missing simply react and removing again should work:').catch((err) => {console.error(err)});
+		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantA').catch((err) => {console.error(err)});
+		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantB').catch((err) => {console.error(err)});
+		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantC').catch((err) => {console.error(err)});
+		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantD').catch((err) => {console.error(err)});
+		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantE').catch((err) => {console.error(err)});
+		
+	}
+	
 	
 	if(command == '!find'){
 		var gyminput = args.join(" ").toLowerCase();
@@ -131,7 +141,10 @@ client.on("message", async message => {
 			for(var gym in gymdb){
 				if(gymdb[gym].nickname.toLowerCase().includes(locations[i])){
 					var qrole = message.channel.guild.roles.find('name', gymdb[gym].quadrant);
-				   output += qrole.toString() +" \n"+"**" +gymdb[gym].gymname +": **" 
+					if((message.channel.id == '340201846687793163')||(message.channel.id == '363433686710091777')){
+						output += qrole.toString() +" \n";
+					}
+				   output += "**" +gymdb[gym].gymname +": **" 
 					   +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n\n";
 					found = 1;
 					ncheck = false;
@@ -142,7 +155,10 @@ client.on("message", async message => {
 				for(var gym in gymdb){
 					if(gymdb[gym].gymname.toLowerCase().includes(locations[i])){
 						var qrole = message.channel.guild.roles.find('name', gymdb[gym].quadrant);
-					   output += qrole.toString() +" \n"+"**" +gymdb[gym].gymname +": **" 
+						if((message.channel.id == '340201846687793163')||(message.channel.id == '363433686710091777')){
+							output += qrole.toString() +" \n";
+						}
+					   output += "**" +gymdb[gym].gymname +": **" 
 						   +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n\n";
 						found = 1;
 						break;
@@ -174,6 +190,58 @@ client.on("message", async message => {
 	
 
 });
+
+client.on("messageReactionAdd", (messageReaction, user) => {   
+	
+	if(messageReaction.message.channel.id == 456520132672356372){
+		if(messageReaction.emoji.id = '👍'){
+			switch(messageReaction.message.content){
+				case '-QuadrantA':
+					messageReaction.message.member.guild.member(user).addRole('442648644190076938').catch(console.error);
+					break;
+				case '-QuadrantB':
+					messageReaction.message.member.guild.member(user).addRole('442648852009582612').catch(console.error);
+					break;
+				case '-QuadrantC':
+					messageReaction.message.member.guild.member(user).addRole('442648940635226113').catch(console.error);
+					break;
+				case '-QuadrantD':
+					messageReaction.message.member.guild.member(user).addRole('442649028417814538').catch(console.error);
+					break;	
+				case '-QuadrantE':
+					messageReaction.message.member.guild.member(user).addRole('456474024063533068').catch(console.error);
+					break;	
+			}
+		}
+	}
+   
+});
+
+client.on('messageReactionRemove', function(messageReaction, user) {    
+		
+	if(messageReaction.message.channel.id == 456520132672356372){
+		if(messageReaction.emoji.id = '👍'){
+			switch(messageReaction.message.content){
+				case '-QuadrantA':
+					messageReaction.message.member.guild.member(user).removeRole('442648644190076938').catch(console.error);
+					break;
+				case '-QuadrantB':
+					messageReaction.message.member.guild.member(user).removeRole('442648852009582612').catch(console.error);
+					break;
+				case '-QuadrantC':
+					messageReaction.message.member.guild.member(user).removeRole('442648940635226113').catch(console.error);
+					break;
+				case '-QuadrantD':
+					messageReaction.message.member.guild.member(user).removeRole('442649028417814538').catch(console.error);
+					break;	
+				case '-QuadrantE':
+					messageReaction.message.member.guild.member(user).removeRole('456474024063533068').catch(console.error);
+					break;	
+			}
+		}
+	}
+});
+
 
 function checkStaff(person){
 	var staffdb = staffs.staff;
