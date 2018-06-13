@@ -130,7 +130,7 @@ client.on("message", async message => {
 			ncheck = true;
 			for(var gym in gymdb){
 				if(gymdb[gym].nickname.toLowerCase().includes(locations[i])){
-					var qrole = message.channel.server.guild.roles.get('name', gymdb[gym].quadrant);
+					var qrole = message.channel.guild.roles.get('name', gymdb[gym].quadrant);
 				   output += qrole.mention() +" \n"+"**" +gymdb[gym].gymname +": **" 
 					   +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n\n";
 					found = 1;
@@ -141,7 +141,7 @@ client.on("message", async message => {
 			if(ncheck){
 				for(var gym in gymdb){
 					if(gymdb[gym].gymname.toLowerCase().includes(locations[i])){
-						var qrole = message.channel.server.guild.roles.get('name', gymdb[gym].quadrant);
+						var qrole = message.channel.guild.roles.get('name', gymdb[gym].quadrant);
 					   output += qrole.mention() +" \n"+"**" +gymdb[gym].gymname +": **" 
 						   +gymdb[gym].gymlocation+"\n**Notes:** "+gymdb[gym].notes+"\n\n";
 						found = 1;
