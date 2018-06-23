@@ -192,11 +192,11 @@ client.on("message", async message => {
  	}
 	
 	if(command == '!exsheet'){
-		message.channel.send("Sheet: http://bit.ly/2tzvfHc");
+		message.channel.send("http://bit.ly/2tzvfHc");
 	}
 	
 	if(command == '!exmap'){
-		message.channel.send("Map: http://bit.ly/2yzpGhu");
+		message.channel.send("http://bit.ly/2yzpGhu");
 	}
 	
 	
