@@ -29,7 +29,7 @@ client.on("message", async message => {
 		message.react('LegendaryEgg:418884815064924173').then(console.log).catch(console.error);
     	}
 	
-	if((message.content.toLowerCase().includes('oh my god'))&&(message.author.id == '232527414696083456')){
+	if((message.content.toLowerCase().includes('oh my god'))&&(message.author.id == '459901951035834368')){
 		message.react('🇴').then(async function (){
 					await message.react('🇲').then(console.log).catch(console.error);
 					await message.react('🇬').then(console.log).catch(console.error);
