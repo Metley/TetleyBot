@@ -14,7 +14,7 @@ client.on("message", async message => {
     const command = args.shift().toLowerCase();
 	
 	
-	if(message.channel.id == '339156612079943682'){
+	if(message.channel.id == '459901951035834368'){
 		message.delete(3600000).catch((err) => {console.error(err)});
 	}
         
@@ -29,7 +29,7 @@ client.on("message", async message => {
 		message.react('LegendaryEgg:418884815064924173').then(console.log).catch(console.error);
     	}
 	
-	if((message.content.toLowerCase().includes('oh my god'))&&(message.author.id == '459901951035834368')){
+	if((message.content.toLowerCase().includes('oh my god'))&&(message.author.id == '232527414696083456')){
 		message.react('🇴').then(async function (){
 					await message.react('🇲').then(console.log).catch(console.error);
 					await message.react('🇬').then(console.log).catch(console.error);
