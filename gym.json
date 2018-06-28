@@ -595,6 +595,15 @@
       "notes": ""
     },
     {
+      "quadrant": "QuadrantE",
+      "nickname": "",
+      "gymname": "Durham Park",
+      "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.715050,-79.701554",
+      "exeligible": "Yes",
+      "nearbyintersection": "Doncaster & Durham",
+      "notes": ""
+    },
+    {
       "quadrant": "QuadrantA",
       "nickname": "earlcook",
       "gymname": "Earl Cook Parkette",
