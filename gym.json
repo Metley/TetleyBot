@@ -262,6 +262,15 @@
       "notes": ""
     },
     {
+      "quadrant": "QuadrantF",
+      "nickname": "",
+      "gymname": "Brunetta Way Gazebo",
+      "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.778801,-79.661500",
+      "exeligible": "Yes",
+      "nearbyintersection": "Via Romano & Brunetta",
+      "notes": ""
+    },
+    {
       "quadrant": "QuadrantC",
       "nickname": "calvary",
       "gymname": "Calvary Baptist Church",
@@ -553,7 +562,7 @@
       "quadrant": "QuadrantE",
       "nickname": "dondoan",
       "gymname": "Don Doan Trail Map In Earnscliffe Park",
-      "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.723473,-79.701501",
+      "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.723738,-79.699201",
       "exeligible": "Yes",
       "nearbyintersection": "Eastbourne & Clark",
       "notes": "Park at Earnscliffe Recreation Centre and walk over"
@@ -664,6 +673,15 @@
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.733356,-79.74396",
       "exeligible": "Yes",
       "nearbyintersection": "MacKay & N Park",
+      "notes": ""
+    },
+    {
+      "quadrant": "QuadrantF",
+      "nickname": "",
+      "gymname": "Embassy Grand Convention Gazebo",
+      "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.767410,-79.659355",
+      "exeligible": "No",
+      "nearbyintersection": "The Gore & Queen",
       "notes": ""
     },
     {
@@ -971,6 +989,15 @@
       "exeligible": "No",
       "nearbyintersection": "Kennedy & Sandalwood",
       "notes": "Park at Courtleigh Square and walk over"
+    },
+    {
+      "quadrant": "QuadrantF",
+      "nickname": "",
+      "gymname": "Josiah Mason Pond",
+      "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.766596,-79.669123",
+      "exeligible": "No",
+      "nearbyintersection": "Don Minaker & Ebenezer",
+      "notes": ""
     },
     {
       "quadrant": "QuadrantC",
