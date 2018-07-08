@@ -13,11 +13,22 @@ client.on("message", async message => {
     const args = message.content.split(' ');
     const command = args.shift().toLowerCase();
 	
-	
+	//raremons-sightings
 	if(message.channel.id == '459901951035834368'){
 		message.delete(3600000).catch((err) => {console.error(err)});
 	}
-        
+	//gym-finder
+	if(message.channel.id == '444267666811650058'){
+		message.delete(3600000).catch((err) => {console.error(err)});
+	}
+	//egg-spot
+	if(message.channel.id == ''){
+		message.delete(6300000).catch((err) => {console.error(err)});
+	}
+	//raid lobbies
+        if((message.channel.id == '') || (message.channel.id == '') || (message.channel.id == '') || (message.channel.id == '')){
+		message.delete(6300000).catch((err) => {console.error(err)});
+	}
 	
 
    		
