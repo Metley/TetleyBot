@@ -1,7 +1,7 @@
 {
   "gym": [
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District3",
       "nickname": "allan",
       "gymname": "Allan Kerbal Park Dedication Gazebo",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.703159,-79.779598",
@@ -10,7 +10,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "bcc archway",
       "gymname": "Archway at Bramalea City Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.71485,-79.727157",
@@ -19,7 +19,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District3",
       "nickname": "ashurst",
       "gymname": "Ashurst Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.715798,-79.766979",
@@ -28,7 +28,7 @@
       "notes": "Park at Ashurst Cresent and walk over"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "gage",
       "gymname": "Audrey Wolstenholme Memorial",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.683631,-79.757829",
@@ -37,7 +37,7 @@
       "notes": "Free parking under City Hall on weekends, first hour free on weekdays"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District3",
       "nickname": "beatty",
       "gymname": "Beatty Fleming Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.680734,-79.777206",
@@ -46,7 +46,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "bforest",
       "gymname": "Black Forest North Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.747623,-79.755123",
@@ -55,7 +55,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District2",
       "nickname": "bonnie",
       "gymname": "Bonnie Glen Farm Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.759513,-79.829507",
@@ -64,7 +64,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "alliance",
       "gymname": "Bramalea Alliance Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731666,-79.7216",
@@ -73,7 +73,7 @@
       "notes": "Church service on Sundays at 9am and 10:45am. Avoid raids during these times"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "baptist",
       "gymname": "Bramalea Baptist Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.714778,-79.729027",
@@ -82,7 +82,7 @@
       "notes": "Church service on Sundays at 9:15am and 11am. Avoid raids during these times"
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "bramcog",
       "gymname": "Bramalea Church of God",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.716351,-79.704686",
@@ -91,7 +91,7 @@
       "notes": "Church service on Sundays at 9am and 10am. Avoid raids during these times"
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "bramgo",
       "gymname": "Bramalea Go Station",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.70193,-79.691039",
@@ -100,7 +100,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "bramltd dogpark",
       "gymname": "Bramalea Limited Community Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.722988,-79.756018",
@@ -109,7 +109,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "bramtrans",
       "gymname": "Bramalea Transit Terminal",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.718944,-79.720643",
@@ -118,7 +118,7 @@
       "notes": "Use parking at Bramalea City Centre near FreshCo. Meet at the 501 West stop"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "brampcem",
       "gymname": "Brampton Cemetery Church St Entrance Sign",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.694908,-79.754948",
@@ -127,7 +127,7 @@
       "notes": "Park at Sophia Street and walk over. Do not park inside the cemetery"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "cineplex",
       "gymname": "Brampton Cineplex Silvercity Theatre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.732793,-79.767707",
@@ -136,7 +136,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "cityhall",
       "gymname": "Brampton City Hall",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.684989,-79.759074",
@@ -145,7 +145,7 @@
       "notes": "Free parking under City Hall on weekends, first hour free on weekdays"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "firestation",
       "gymname": "Brampton Fire Station 203",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.747508,-79.712672",
@@ -154,7 +154,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "bramheritage",
       "gymname": "Brampton Heritage Society Knowledge and service dedication tree",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.67191,-79.741665",
@@ -163,7 +163,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "",
       "gymname": "Brampton Islamic Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.701621,-79.804663",
@@ -172,7 +172,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "masonic",
       "gymname": "Brampton Masonic Lodge",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.726403,-79.699298",
@@ -181,7 +181,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "brampmem",
       "gymname": "Brampton Memorial Gardens",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.687608,-79.809985",
@@ -190,7 +190,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "peacegard",
       "gymname": "Brampton Peace Garden",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.724886,-79.800397",
@@ -199,7 +199,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "seventhday",
       "gymname": "Brampton Seventh Day Adventist Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.648064,-79.747536",
@@ -208,7 +208,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "snelgrove",
       "gymname": "Brampton Snelgrove Community Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731186,-79.821935",
@@ -217,7 +217,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "bramptrain",
       "gymname": "Brampton Train Station",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.686962,-79.764745",
@@ -226,7 +226,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "trestle",
       "gymname": "Brampton Trestle",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.676126,-79.82386",
@@ -235,7 +235,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "breadner",
       "gymname": "Breadner Way Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.689419,-79.824561",
@@ -244,7 +244,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "bridge",
       "gymname": "Bridge on Etobicoke Creek Trail",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.671381,-79.739455",
@@ -253,7 +253,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "bruce",
       "gymname": "Bruce Beer Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.708534,-79.759693",
@@ -262,7 +262,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "",
       "gymname": "Brunetta Way Gazebo",
       "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.778801,-79.661500",
@@ -271,7 +271,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "calvary",
       "gymname": "Calvary Baptist Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.665467,-79.731183",
@@ -280,7 +280,7 @@
       "notes": "Church service on Sundays at 10am, 11am, and 6:30pm. Avoid raids during these times"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "calvert",
       "gymname": "Calvert Park Gazebo",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.698175,-79.772781",
@@ -289,7 +289,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "camden",
       "gymname": "Camden Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.719119,-79.794122",
@@ -298,7 +298,7 @@
       "notes": "Park at Dalzell Ave and walk over"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "camdeneast",
       "gymname": "Camden Park East",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.741676,-79.746701",
@@ -307,7 +307,7 @@
       "notes": "Not recommended for raids as gym is difficult to access. Gym located in wrong spot, not actually in a park"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "postoffice",
       "gymname": "Canada Post Office - Northgate Shopping Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.733748,-79.720623",
@@ -316,7 +316,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "carleton",
       "gymname": "Carleton Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.706755,-79.717771",
@@ -325,7 +325,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "cassiecc",
       "gymname": "Cassie Campbell Community Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.696835,-79.823299",
@@ -334,7 +334,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "cassiesplash",
       "gymname": "Cassie Campbell Community Splashpad",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.696378,-79.824096",
@@ -343,7 +343,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "cavendish",
       "gymname": "Cavendish Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.713069,-79.712567",
@@ -352,7 +352,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "billiards",
       "gymname": "Century Billards Artwork",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.697094,-79.74895",
@@ -361,7 +361,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "cgardens",
       "gymname": "Century Gardens",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.710039,-79.75661",
@@ -370,7 +370,7 @@
       "notes": "Gym located at rear of rec centre"
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "chant",
       "gymname": "Chant Valley Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.775298,-79.729409",
@@ -379,7 +379,7 @@
       "notes": "Park on Crockner Drive or Blaketon Court and walk over. Do not park at gym as road only has one lane"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "cheyne",
       "gymname": "Cheyne Pioneer Cemetery",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.657948,-79.722068",
@@ -388,7 +388,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "childhope",
       "gymname": "Child Hope Foundation",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.68758,-79.770434",
@@ -397,7 +397,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "minimoo",
       "gymname": "Chinguacousy Park - Mini Moo",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.723362,-79.721752",
@@ -406,7 +406,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "chingboat",
       "gymname": "Chinguacousy Park Boat Pavilion",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.723524,-79.724924",
@@ -415,7 +415,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "chingtrop",
       "gymname": "Chinguacousy Park Tropical Garden",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.722832,-79.721118",
@@ -424,7 +424,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "chrisgibson",
       "gymname": "Chris Gibson Park Southern Entrance",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.681271,-79.771328",
@@ -433,7 +433,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District3",
       "nickname": "christian",
       "gymname": "Christian Family Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.68471,-79.78294",
@@ -442,7 +442,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "archangel",
       "gymname": "Church of the Archangel Michael",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.736372,-79.827177",
@@ -451,7 +451,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "churchville",
       "gymname": "Churchville Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.632977,-79.756877",
@@ -460,7 +460,7 @@
       "notes": "New gym added 12/21/2017"
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "churchvilleplay",
       "gymname": "Churchville Park Playground",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.633332,-79.755139",
@@ -469,7 +469,7 @@
       "notes": "New gym added 12/21/2017"
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "churchvillev",
       "gymname": "Churchville Village",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.639601,-79.76173",
@@ -478,7 +478,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "conservation",
       "gymname": "Conservation Drive Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731438,-79.808715",
@@ -487,7 +487,7 @@
       "notes": "Gate closed in winter. If closed, park at Dawnridge Trail and walk over"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District3",
       "nickname": "cowton",
       "gymname": "Cowton Family Meadow Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.686653,-79.785221",
@@ -496,7 +496,7 @@
       "notes": "Park at Christian Family Church and walk over"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "creditview",
       "gymname": "Creditview Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.683661,-79.833583",
@@ -505,7 +505,7 @@
       "notes": "Difficult to access due to ongoing construction"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "cresthaven",
       "gymname": "Cresthaven Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.72531,-79.822206",
@@ -514,7 +514,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "dafoe",
       "gymname": "Dafoe Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.656746,-79.75406",
@@ -523,7 +523,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "damatta",
       "gymname": "Damatta Park Gazebo",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.671705,-79.811594",
@@ -532,7 +532,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "daviddash",
       "gymname": "David Dash Memorial Baseball Diamond",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.678234,-79.760675",
@@ -541,7 +541,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "dearbourne",
       "gymname": "Dearbourne Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.713049,-79.698845",
@@ -550,7 +550,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "dennison",
       "gymname": "Dennison Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.756898,-79.822228",
@@ -559,7 +559,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "dondoan",
       "gymname": "Don Doan Trail Map In Earnscliffe Park",
       "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.723738,-79.699201",
@@ -568,7 +568,7 @@
       "notes": "Park at Earnscliffe Recreation Centre and walk over"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "donnelly",
       "gymname": "Donnelly East Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.734771,-79.782862",
@@ -577,7 +577,7 @@
       "notes": "Parking lot closed in winter. If closed, park at Forestgrove Circle and walk over. Can only access parking lot while heading east on Sandalwood"
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "dorchester",
       "gymname": "Dorchester Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.718755,-79.694452",
@@ -586,7 +586,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "jose",
       "gymname": "Dr Jose P. Rizal - National Filipino Hero",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.689626,-79.810454",
@@ -595,7 +595,7 @@
       "notes": "Located inside a cemetery"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "duggan",
       "gymname": "Duggan Park East",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.696808,-79.764983",
@@ -604,7 +604,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "",
       "gymname": "Durham Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.715050,-79.701554",
@@ -613,7 +613,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "earlcook",
       "gymname": "Earl Cook Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.691613,-79.81899",
@@ -622,7 +622,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "earnie",
       "gymname": "Earnie Mitchell Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.689452,-79.756209",
@@ -631,7 +631,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "earnspark",
       "gymname": "Earnscliffe Park North Entrance",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.72358,-79.708811",
@@ -640,7 +640,7 @@
       "notes": "New gym added 12/21/2017"
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "erc",
       "gymname": "Earnscliffe Recreation Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.723738,-79.699201",
@@ -649,7 +649,7 @@
       "notes": "New gym added 12/21/2017"
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "ebenezer",
       "gymname": "Ebenezer Schoolhouse",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.772041,-79.663653",
@@ -658,7 +658,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "ecogarden",
       "gymname": "Eco-Friendly Demonstration Garden",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.663745,-79.721526",
@@ -667,7 +667,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "ellen",
       "gymname": "Ellen Mitchell Recreation Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.733356,-79.74396",
@@ -676,7 +676,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "",
       "gymname": "Embassy Grand Convention Gazebo",
       "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.767410,-79.659355",
@@ -685,7 +685,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "emmanuel",
       "gymname": "Emmanuel United Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.714194,-79.70854",
@@ -694,7 +694,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "englishst",
       "gymname": "English Street Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.692338,-79.773924",
@@ -703,7 +703,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "floodcontrol",
       "gymname": "Etobicoke River Flood Control Channel Monument",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.6913,-79.758978",
@@ -712,7 +712,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "faithgospel",
       "gymname": "Faith Gospel Tabernacle",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.677085,-79.818409",
@@ -721,7 +721,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "fletchers",
       "gymname": "Fletcher's Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.680457,-79.819819",
@@ -730,7 +730,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "flowercity",
       "gymname": "Flower City Campus Seniors Recreation Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.671403,-79.769772",
@@ -739,7 +739,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "harkema",
       "gymname": "frank harkema park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.707806,-79.819536",
@@ -748,7 +748,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "fredkee",
       "gymname": "Fred Kee Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.694969,-79.788061",
@@ -757,7 +757,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "countryside",
       "gymname": "Gates of Countryside",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.771295,-79.756387",
@@ -766,7 +766,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "gatesgill",
       "gymname": "Gatesgill Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.700182,-79.78381",
@@ -775,7 +775,7 @@
       "notes": "Park at Gatesgill St and walk over"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District3",
       "nickname": "lakelands",
       "gymname": "Gazebo at Lakelands Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.718519,-79.761048",
@@ -784,7 +784,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "chessboard",
       "gymname": "Giant Chessboard",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.703641,-79.716974",
@@ -793,7 +793,7 @@
       "notes": "Not accessible for raids as it's inside the Rogers building"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "glenmanor",
       "gymname": "Glenmanor Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.712951,-79.790911",
@@ -802,7 +802,7 @@
       "notes": ""
     }, 
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "",
       "gymname": "Gore Meadows Community Centre and Brampton Library",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.795066,-79.694626",
@@ -811,7 +811,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "greenmount",
       "gymname": "Greenmount Park (Middle, South Side Of Greenmount Rd)",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731728,-79.713713",
@@ -820,7 +820,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "guadara",
       "gymname": "Guadara Dasmesh Darbar Temple",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.773954,-79.660794",
@@ -829,7 +829,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "hanover",
       "gymname": "Hanover Park South",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.719011,-79.726046",
@@ -838,7 +838,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "hansen",
       "gymname": "Hansen Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.710338,-79.763668",
@@ -847,7 +847,7 @@
       "notes": "Gym closed from approximately 9pm-7am"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "hl",
       "gymname": "Heart Lake",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.739996,-79.791445",
@@ -856,7 +856,7 @@
       "notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "hlic",
       "gymname": "Heartlake Conservation Area Information Sign",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.738711,-79.791855",
@@ -865,7 +865,7 @@
       "notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "hlpc ruth",
       "gymname": "Heartlake Presbyterian Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.722108,-79.787387",
@@ -874,7 +874,7 @@
       "notes": "Church service Sundays 9am-12:30pm. Avoid raids during this time"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District2",
       "nickname": "hluc",
       "gymname": "Heartlake United Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.721867,-79.79771",
@@ -883,7 +883,7 @@
       "notes": "Church service Sundays 10:30am. Due to concerns being raised, avoid raids during school hours on weekdays."
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "hlpp",
       "gymname": "heartlake wise paw prints information sign",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.745691,-79.798188",
@@ -892,7 +892,7 @@
       "notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "hesp",
       "gymname": "Hesp Valley - NW Entrance",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.701338,-79.820134",
@@ -901,7 +901,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "historic",
       "gymname": "Historic Brampton Flowertown of Canada",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.693538,-79.764202",
@@ -910,7 +910,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "hollowtree",
       "gymname": "Hollowtree Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.705711,-79.76859",
@@ -919,7 +919,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "howden hrc",
       "gymname": "Howden Recreation Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.721357,-79.729052",
@@ -928,7 +928,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "nadia",
       "gymname": "In Memory of Nadia and Collette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.68893,-79.808645",
@@ -937,7 +937,7 @@
       "notes": "Located inside a cemetery. Please be respectful"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "jphutton",
       "gymname": "J.P. Hutton Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.701916,-79.824625",
@@ -946,7 +946,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "mccurry",
       "gymname": "James F.McCurry Victoria Park Arena",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.704955,-79.698071",
@@ -955,7 +955,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "jefferson",
       "gymname": "Jefferson Park South",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.739714,-79.730773",
@@ -964,7 +964,7 @@
       "notes": "Park at Jerome Crescent or Jacobs Square and walk over"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "johnarthur",
       "gymname": "John Arthur Carroll Memorial Arboretum",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.684779,-79.750966",
@@ -973,7 +973,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "mccullough",
       "gymname": "John H. McCullough dedication tree",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.671121,-79.741081",
@@ -982,7 +982,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "jj",
       "gymname": "Jorgen Jensen Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.728162,-79.792842",
@@ -991,7 +991,7 @@
       "notes": "Park at Courtleigh Square and walk over"
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "",
       "gymname": "Josiah Mason Pond",
       "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.766596,-79.669123",
@@ -1000,7 +1000,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "kennedytab",
       "gymname": "Kennedy Road Tabernacle",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.702957,-79.759614",
@@ -1009,7 +1009,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "chisholm",
       "gymname": "Kenneth Chisholm Pond",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.687385,-79.823989",
@@ -1018,7 +1018,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "kiwanis",
       "gymname": "Kiwanis Memorial Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.668122,-79.735679",
@@ -1027,7 +1027,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "koreanwar",
       "gymname": "Korean War Memorial",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.641889,-79.749163",
@@ -1036,7 +1036,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "lakelouise",
       "gymname": "Lake Louise Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.67922,-79.812627",
@@ -1045,7 +1045,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "lascelles",
       "gymname": "Lascelles Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.721959,-79.740441",
@@ -1054,7 +1054,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "laurelcrest",
       "gymname": "Laurelcrest Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.712078,-79.739158",
@@ -1063,7 +1063,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "lps",
       "gymname": "Laurelcrest Park South",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.710834,-79.733244",
@@ -1072,7 +1072,7 @@
       "notes": "Park at Lombardy Crescent and walk over"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "leander",
       "gymname": "Leander Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.720095,-79.744515",
@@ -1081,7 +1081,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "leons",
       "gymname": "Leon's Bench",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.688976,-79.756058",
@@ -1090,7 +1090,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "lfw",
       "gymname": "Little Family Way Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.752473,-79.754801",
@@ -1099,7 +1099,7 @@
       "notes": "Park at Rockrose Drive or Sand Cherry Crescent and walk over. Do not park on Bramalea Road"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "loafers",
       "gymname": "Loafers Lake Recreation Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.726078,-79.798605",
@@ -1108,7 +1108,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "lougheed",
       "gymname": "Lougheed Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.642018,-79.753306",
@@ -1117,7 +1117,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "malta",
       "gymname": "Malta Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.6592,-79.730652",
@@ -1126,7 +1126,7 @@
       "notes": "Gather on pathway, not in front of the school"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "manitou",
       "gymname": "Manitou Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.734828,-79.754071",
@@ -1135,7 +1135,7 @@
       "notes": "Park at Manitou Crescent and walk over"
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District4",
       "nickname": "manor",
       "gymname": "Manor Gazebo",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.654588,-79.742206",
@@ -1144,7 +1144,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "cation",
       "gymname": "Matthew Cation Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.705658,-79.829305",
@@ -1153,7 +1153,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "mayfield",
       "gymname": "Mayfield Park Water Tower",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.72996,-79.828426",
@@ -1162,7 +1162,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "meadowvalle",
       "gymname": "Meadowvalle Cemetery Map",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.639239,-79.745022",
@@ -1171,7 +1171,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "milestone",
       "gymname": "Milestone of Labour",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.672379,-79.765878",
@@ -1180,7 +1180,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District8",
       "nickname": "millstone",
       "gymname": "Millstone Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.646958,-79.753417",
@@ -1189,7 +1189,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "minaker",
       "gymname": "Minaker Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.771911,-79.67257",
@@ -1198,7 +1198,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "mk jimarch",
       "gymname": "Morris Kerbel Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.718385,-79.789277",
@@ -1207,7 +1207,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "mpgo",
       "gymname": "Mount Pleasant GO Train Station",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.675374,-79.820869",
@@ -1216,7 +1216,7 @@
       "notes": "Coordinate with raid leader on meeting location"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "mpnorth",
       "gymname": "Mount Pleasant Station North Entrance",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.675013,-79.821561",
@@ -1225,7 +1225,7 @@
       "notes": "Coordinate with raid leader on meeting location"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "mpwest",
       "gymname": "Mount Pleasant West Go Train Access Entrance",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.6747,-79.823387",
@@ -1234,7 +1234,7 @@
       "notes": "Coordinate with raid leader on meeting location"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "fakemp",
       "gymname": "Mt Pleasant GO Transit Station",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.682844,-79.828135",
@@ -1243,7 +1243,7 @@
       "notes": "Park at Platform Cres and walk over"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "natives",
       "gymname": "Natives",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.73053,-79.764884",
@@ -1252,7 +1252,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "norman",
       "gymname": "Norman Price's Pond",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.674042,-79.805793",
@@ -1261,7 +1261,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "nbpc",
       "gymname": "North Bramalea Presbyterian Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.734539,-79.742407",
@@ -1270,7 +1270,7 @@
       "notes": "Church service Sundays at 9am and 10:30am. Avoid raids during this time"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District8",
       "nickname": "northwood",
       "gymname": "Northwood Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.676023,-79.778908",
@@ -1279,7 +1279,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "parcourse",
       "gymname": "Parcourse FitCircuit Station",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.704436,-79.714766",
@@ -1288,7 +1288,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District8",
       "nickname": "parksmaint",
       "gymname": "Parks Maintenance and Operations",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.667062,-79.78921",
@@ -1297,7 +1297,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "parrlake",
       "gymname": "Parr Lake North",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.716066,-79.747152",
@@ -1306,7 +1306,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "peleg",
       "gymname": "Peleg Howland Valley Park Entrance - Bonistel Fork",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.698038,-79.808098",
@@ -1315,7 +1315,7 @@
       "notes": "Park at Dells Crescent and walk over"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "powerade",
       "gymname": "Powerade Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.666926,-79.709174",
@@ -1324,7 +1324,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "proflake",
       "gymname": "Professor Lake Recreational Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.746396,-79.733049",
@@ -1333,7 +1333,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "roehampton",
       "gymname": "Roehampton Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.66067,-79.74185",
@@ -1342,7 +1342,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "rosalea",
       "gymname": "Rosalea Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.689816,-79.759114",
@@ -1351,7 +1351,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "rosetheatre",
       "gymname": "Rose Theatre Fountain",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.686677,-79.760078",
@@ -1360,7 +1360,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "legion",
       "gymname": "Royal Canadian Legion",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.68521,-79.751511",
@@ -1369,7 +1369,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "royalorchard",
       "gymname": "Royal Orchard Channel",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.693238,-79.782327",
@@ -1378,7 +1378,7 @@
       "notes": "Park at Saddletree Trail and walk over"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "rusty",
       "gymname": "Rusty Chair (Art)",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.734072,-79.707253",
@@ -1387,7 +1387,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District3",
       "nickname": "sheffield",
       "gymname": "Sheffield Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.711187,-79.781072",
@@ -1396,7 +1396,7 @@
       "notes": "Park at Salem Court and walk overr"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "sheridancoll",
       "gymname": "Sheridan College-Brampton",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.655589,-79.738439",
@@ -1405,7 +1405,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "sheridanp",
       "gymname": "Sheridan Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.693873,-79.75657",
@@ -1414,7 +1414,7 @@
       "notes": "Park at Sophia Street and walk over. Do not park in the cemetery"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "soccer",
       "gymname": "Soccer Mural",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.743562,-79.770024",
@@ -1423,7 +1423,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "southfletchers",
       "gymname": "South Fletcher's Sportplex",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.652967,-79.734182",
@@ -1432,7 +1432,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "stbarts",
       "gymname": "St. Bartholomew's United Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.680348,-79.741147",
@@ -1441,7 +1441,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "stgeorge",
       "gymname": "St. George Syriac Orthodox Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.634261,-79.767494",
@@ -1450,7 +1450,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "stjohn",
       "gymname": "St. John Fisher Catholic Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.710345,-79.711455",
@@ -1459,7 +1459,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "stjoseph",
       "gymname": "St. Joseph Of Nazereth Anglican Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.70955,-79.71243",
@@ -1468,7 +1468,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "dyouville",
       "gymname": "St. Marguerite d'Youville Parish",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.765229,-79.749409",
@@ -1477,7 +1477,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "stafford",
       "gymname": "Stafford Woods",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.728142,-79.81132",
@@ -1486,7 +1486,7 @@
       "notes": "Park at plaza behind Zion Cemetery or Ridelle Ct and walk over"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "stanford",
       "gymname": "Stanford Spire",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.691108,-79.804053",
@@ -1495,7 +1495,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantF",
+      "quadrant": "District7",
       "nickname": "athena",
       "gymname": "Statue of the Goddess Athena",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.740338,-79.692304",
@@ -1504,7 +1504,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "steacy",
       "gymname": "Steacy Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.678064,-79.749672",
@@ -1513,7 +1513,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "steampunk",
       "gymname": "Steam Punk Clockworks",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.681175,-79.761979",
@@ -1522,7 +1522,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "talbot",
       "gymname": "Talbot Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.689388,-79.776417",
@@ -1531,7 +1531,7 @@
       "notes": "Park on Pleasantville Ave and walk over"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "tara",
       "gymname": "Tara Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.69759,-79.77541",
@@ -1540,7 +1540,7 @@
       "notes": "Park at McDonalds past Main & Layham Gate and walk over"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District8",
       "nickname": "teramoto",
       "gymname": "Teramoto Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.668196,-79.784384",
@@ -1549,7 +1549,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "terryfox",
       "gymname": "Terry Fox Track and Field Stadium",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.7258,-79.71971",
@@ -1558,7 +1558,7 @@
       "notes": "Must park at one of the parking lots at Chinguacousy Park and walk over"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "apple",
       "gymname": "The Apple Factory",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.667055,-79.829909",
@@ -1567,7 +1567,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "berean",
       "gymname": "The Berean Church of God",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.713401,-79.800647",
@@ -1576,7 +1576,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "dale",
       "gymname": "The Dale Estate",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.694174,-79.763813",
@@ -1585,7 +1585,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "oldshoe",
       "gymname": "The Old Shoe Factory",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.686655,-79.766877",
@@ -1594,7 +1594,7 @@
       "notes": "Park at Brampton GO station and walk over"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "torontotemple",
       "gymname": "Toronto Temple Of The Church Of Jerusalem Christmas West Water Fountain",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.744006,-79.745477",
@@ -1603,7 +1603,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantE",
+      "quadrant": "District5",
       "nickname": "totem",
       "gymname": "Totem Pole",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.703404,-79.716638",
@@ -1612,7 +1612,7 @@
       "notes": "Not accessible for raids as it's inside the Rogers building"
     },
     {
-      "quadrant": "QuadrantB",
+      "quadrant": "District4",
       "nickname": "unity",
       "gymname": "Unity Windmill",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.654495,-79.741889",
@@ -1621,7 +1621,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "valleybrook",
       "gymname": "Valleybrook Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.700424,-79.775713",
@@ -1630,16 +1630,26 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "valleywood",
       "gymname": "Valleywood",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.744322,-79.831842",
       "exeligible": "No",
       "nearbyintersection": "Hurontario & Highway 410",
       "notes": ""
-    },
+},
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District2",
+      "nickname": "south fields",
+      "gymname": "Village of South Fields Parkette",
+      "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.754998,-79.822137",
+      "exeligible": "Yes",
+      "nearbyintersection": "Kennedy & Kearny",
+      "notes": ""
+    },
+
+    {
+      "quadrant": "District1",
       "nickname": "wabates",
       "gymname": "W.A. Bates Pond",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.691252,-79.815543",
@@ -1648,7 +1658,7 @@
       "notes": "Have to park on the street or plaza and walk over to the gym"
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "wellington",
       "gymname": "Wellington, In Memory of Crowne",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.768639,-79.730143",
@@ -1657,7 +1667,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantD",
+      "quadrant": "District6",
       "nickname": "whitespruce",
       "gymname": "White Spruce Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731284,-79.774343",
@@ -1666,7 +1676,7 @@
       "notes": "Gate may be closed in winter. If closed, park at Copperfield Rd and walk over"
     },
     {
-      "quadrant": "QuadrantA",
+      "quadrant": "District1",
       "nickname": "whitewash",
       "gymname": "Whitewash Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.684692,-79.801046",
@@ -1675,7 +1685,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District3",
       "nickname": "winterfold",
       "gymname": "Winterfold Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.713668,-79.773127",
@@ -1684,7 +1694,7 @@
       "notes": "Park at Simmons Blvd or Winterfold Drive and walk over"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District4",
       "nickname": "wok",
       "gymname": "Wok of Fame Guardian",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.659794,-79.726115",
@@ -1693,7 +1703,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "woodview",
       "gymname": "Woodview Park East",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.672732,-79.760112",
@@ -1702,7 +1712,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "",
       "gymname": "Word of God Assemblies International",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.701121,-79.796755",
@@ -1711,7 +1721,7 @@
       "notes": ""
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": "District3",
       "nickname": "youngcanada",
       "gymname": "Young Canada Celebration Sculpture",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.684318,-79.759185",
@@ -1720,7 +1730,7 @@
       "notes": "Free parking under City Hall on weekends"
     },
     {
-      "quadrant": "QuadrantC",
+      "quadrant": " District2",
       "nickname": "zion",
       "gymname": "Zion Cemetery",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.726159,-79.813347",
