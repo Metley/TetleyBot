@@ -46,7 +46,7 @@ client.on("message", async message => {
 					await message.react('🇬').then(console.log).catch(console.error);
 				}).catch(console.error);  
     	}
-	
+	/*
 	if(message.content.toLowerCase().includes('lunatone')){
 		message.react('❗').then(async function (){
 					await message.react('🇰').then(console.log).catch(console.error);
@@ -57,7 +57,7 @@ client.on("message", async message => {
 					await message.react('🌛').then(console.log).catch(console.error);
 				}).catch(console.error);  
     	}
-	
+	*/
 	
 	if((message.content.toLowerCase().includes('@everyone'))&&(checkStaff(message.author.id) == 'fart')){
 		message.react('🚫').then(console.log).catch(console.error);
