@@ -100,6 +100,7 @@ client.on("message", async message => {
 			if(gymdb[gym].nickname.toLowerCase().includes(gyminput)){
 			   message.channel.send("**Gym Name:** " +gymdb[gym].gymname 
 									       +"\n**Nickname:** " +gymdb[gym].nickname
+									      +"\n**District:** " +gymdb[gym].quadrant
 									      +"\n**Gym Location:** " +gymdb[gym].gymlocation
 									      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 									      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
@@ -115,6 +116,7 @@ client.on("message", async message => {
 				if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
 				   message.channel.send("**Gym Name:** " +gymdb[gym].gymname 
 										       +"\n**Nickname:** " +gymdb[gym].nickname
+										      +"\n**District:** " +gymdb[gym].quadrant
 										      +"\n**Gym Location:** " +gymdb[gym].gymlocation
 										      +"\n**EX Eligible:** " +gymdb[gym].exeligible
 										      +"\n**Nearby Intersection:** "+gymdb[gym].nearbyintersection
