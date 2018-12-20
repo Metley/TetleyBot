@@ -298,7 +298,7 @@ function checkStaff(person){
 }
 
 function logOutput(message){
-	message.guild.channels.find("name", "tetley-test").send('User: '+message.member.displayName+ 'Channel: '+message.channel.name+ ' Search: '+message.content);		
+	message.guild.channels.find("name", "tetley-test").send('`**User:** '+message.member.displayName+ ' **Channel:** '+message.channel.name+ ' **Search:** '+message.content+'`');		
 		
 }
 
