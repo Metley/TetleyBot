@@ -298,13 +298,13 @@ function checkStaff(person){
 }
 
 function logOutput(message){
-	message.guild.channels.find("name", "tetley-test").send('User: '+message.member.displayname+ ' Query: '+message.content);		
+	message.guild.channels.find("name", "tetley-test").send('User: '+message.member.displayName+ ' Query: '+message.content);		
 		
 }
 
 function countRaidReactions(messageReaction, user){
-	var id = messageReaction.message.memeber.guild.member(user).displayname;
-	var name = messageReaction.message.member.guild.member(user).displayname;
+	var id = messageReaction.message.memeber.guild.member(user).id;
+	var name = messageReaction.message.member.guild.member(user).displayName;
 	
 	
 	if(reactList.length != 0){
