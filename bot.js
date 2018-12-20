@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const schedule = require('node-schedule');
 const gyms = require ("./gym.json");
 const staffs = require ("./staff.json");
+var reactList = [];
 
 
 client.on("message", async message => {
@@ -289,6 +290,40 @@ function checkStaff(person){
 		}
 	}
 	return 'fart';
+}
+
+function logOutput(message){
+	message.guild.channels.find("name", "tetley-test").send('User: '+message.member.displayname+ ' Query: '+message.content);		
+		
+}
+
+function countRaidReactions(messageReaction, user){
+	var id = messageReaction.message.memeber.guild.member(user).displayname;
+	var name = messageReaction.message.member.guild.member(user).displayname;
+	
+	
+	if(reactList.length != 0){
+		var tId;
+		var tName;
+		var tNum;
+		
+		for(var i; i < reactList.length; i++){
+			var person = reactList[i].split('%');
+			tId = person[0];
+			tName = person[1];
+			tNum = person[2];
+			if(tId == id){
+				tNum++;
+				var react = tId+"%"+tName+"%"+tNum;
+				reactList[i] = react;
+			}
+		}
+		
+	} else {
+		var react = id+"%"+name+"%1";
+		reactList.push(react);
+	}
+	
 }
 
 
