@@ -97,6 +97,8 @@ client.on("message", async message => {
 		var gymdb = gyms.gym;
 		var found = 0;
 		var ncheck = true;
+		logOutput(message);
+		
 		for(var gym in gymdb){
 			if(gymdb[gym].nickname.toLowerCase().includes(gyminput)){
 			   message.channel.send("**Gym Name:** " +gymdb[gym].gymname 
@@ -151,6 +153,8 @@ client.on("message", async message => {
 		var gyminput = args.join(" ").toLowerCase();
 		var gymdb = gyms.gym;
 		var found = 0;
+		logOutput(message);
+		
 		for(var gym in gymdb){
 			if(gymdb[gym].gymname.toLowerCase().includes(gyminput)){
 			   message.channel.send("**" +gymdb[gym].gymname 
@@ -173,6 +177,7 @@ client.on("message", async message => {
 		var output = '';
 		var found = 0;
 		var ncheck = true;
+		logOutput(message);
 		
 		for(var i=0; i<locations.length; i++){
 			ncheck = true;
