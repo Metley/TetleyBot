@@ -81,6 +81,14 @@ client.on("message", async message => {
 		}
 	}
 	
+	if((message.content == '!printList')&&(message.author.id == '327162272990363648')){
+		for(var i = 0; i < reactList.length; i++){
+			var person = reactList[i].split('%');
+			message.guild.channels.find("name", "tetley-test").send('**User:** `'+person[1]+ '` **Reactions:** `'+person[2]+'`');
+		}
+		
+    	}
+	
 	if((command == '!createquadrants')&&(message.author.id == '327162272990363648')){
 		message.guild.channels.find("name", "quadrant-assignment").send('Adding a 👍 reaction to the Quadrant will subsribe you to receive notifications on all raids happening in that area. \nRemoving your reaction will unscrible you from any further notification, if your reacion is missing simply react and removing again should work:').catch((err) => {console.error(err)});
 		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantA').catch((err) => {console.error(err)});
