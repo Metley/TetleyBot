@@ -331,6 +331,7 @@ function countRaidReactions(messageReaction, user){
 			tId = person[0];
 			tName = person[1];
 			tNum = person[2];
+			console.log('Entered For Loop');
 			console.log('${tId} == ${id}');
 			if(tId == id){
 				tNum++;
@@ -351,7 +352,7 @@ function countRaidReactions(messageReaction, user){
 		}
 		if(newEntry){
 			var react = id+"%"+name+"%1";
-			reactList[i] = react;
+			reactList.push(react);
 			console.log("Added a new Person to List");
 		}
 		
