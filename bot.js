@@ -335,6 +335,7 @@ function countRaidReactions(messageReaction, user){
 				tNum++;
 				var react = tId+"%"+tName+"%"+tNum;
 				reactList[i] = react;
+				console.log("Update Values");
 				newEntry = false;
 				
 				if(i != 0){
@@ -350,11 +351,13 @@ function countRaidReactions(messageReaction, user){
 		if(newEntry){
 			var react = id+"%"+name+"%1";
 			reactList[i] = react;
+			console.log("Added a new Person to List");
 		}
 		
 	} else {
 		var react = id+"%"+name+"%1";
 		reactList.push(react);
+		console.log("Added a new Person to List and List is Empty");
 	}
 	
 }
