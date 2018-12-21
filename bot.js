@@ -326,7 +326,7 @@ function countRaidReactions(messageReaction, user){
 		var tName;
 		var tNum;
 		
-		for(var i; i < reactList.length; i++){
+		for(var i = 0; i < reactList.length; i++){
 			var person = reactList[i].split('%');
 			tId = person[0];
 			tName = person[1];
