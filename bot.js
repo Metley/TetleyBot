@@ -89,7 +89,7 @@ client.on("message", async message => {
     	}
 	
 	if ((message.content == '!startReactCounter')&&(message.author.id == '327162272990363648')) {
-        	message.channel.sendMessage('Counter has Started');
+        	message.channel.send('Counter has Started');
        	 	var j = schedule.scheduleJob('15 02 * * *', function () {
 			console.log('Job Start');
             		for(var i = 0; i < reactList.length; i++){
