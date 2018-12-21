@@ -84,7 +84,7 @@ client.on("message", async message => {
 	if((message.content == '!printList')&&(message.author.id == '327162272990363648')){
 		for(var i = 0; i < reactList.length; i++){
 			var person = reactList[i].split('%');
-			message.guild.channels.find("name", "tetley-test").send('**User:** `'+person[1]+ '` **Reactions:** `'+person[2]+'`');
+			message.channel.send('**User:** `'+person[1]+ '` **Reactions:** `'+person[2]+'`');
 		}
 		
     	}
