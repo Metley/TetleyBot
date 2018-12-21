@@ -317,7 +317,7 @@ function logOutput(message){
 }
 
 function countRaidReactions(messageReaction, user){
-	var id = messageReaction.message.memeber.guild.member(user).id;
+	var id = messageReaction.message.member.guild.member(user).id;
 	var name = messageReaction.message.member.guild.member(user).displayName;
 	var newEntry = true;
 	
