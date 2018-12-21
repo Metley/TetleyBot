@@ -331,6 +331,7 @@ function countRaidReactions(messageReaction, user){
 			tId = person[0];
 			tName = person[1];
 			tNum = person[2];
+			console.log('${tId} == ${id}');
 			if(tId == id){
 				tNum++;
 				var react = tId+"%"+tName+"%"+tNum;
