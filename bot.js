@@ -257,6 +257,12 @@ client.on("messageReactionAdd", (messageReaction, user) => {
 			}
 		}
 	}
+	
+	if((messageReaction.message.channel.id == 340201846687793163) || (messageReaction.message.channel.id == 363433686710091777) || (messageReaction.message.channel.id == 522655995940438018)){
+		if((messageReaction.emoji.id = ':one:') || (messageReaction.emoji.id = ':two:') || (messageReaction.emoji.id = ':three:') || (messageReaction.emoji.id = ':four:') || (messageReaction.emoji.id = ':five:') || (messageReaction.emoji.id = ':six:')){
+			countRaidReactions(messageReaction, user);
+		}
+	}
    
 });
 
@@ -305,7 +311,7 @@ function logOutput(message){
 function countRaidReactions(messageReaction, user){
 	var id = messageReaction.message.memeber.guild.member(user).id;
 	var name = messageReaction.message.member.guild.member(user).displayName;
-	
+	var newEntry = true;
 	
 	if(reactList.length != 0){
 		var tId;
@@ -321,7 +327,21 @@ function countRaidReactions(messageReaction, user){
 				tNum++;
 				var react = tId+"%"+tName+"%"+tNum;
 				reactList[i] = react;
+				newEntry false;
+				
+				if(i != 0){
+					var temp = reactList[(i-1)].split('%');
+					if(tNum > temp[2]){
+						var react = react[i];
+						reactList[i] = reactList[(i-1)];
+						reactList[(i-1)] = react;
+					}
+				}
 			}
+		}
+		if(newEntry){
+			var react = id+"%"+name+"%1";
+			reactList[i] = react;
 		}
 		
 	} else {
@@ -330,6 +350,7 @@ function countRaidReactions(messageReaction, user){
 	}
 	
 }
+
 
 
 client.login(process.env.BOT_TOKEN);
