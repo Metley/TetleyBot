@@ -82,12 +82,19 @@ client.on("message", async message => {
 	}
 	
 	if((message.content == '!printList')&&(message.author.id == '327162272990363648')){
+		console.log('Printing');
 		for(var i = 0; i < reactList.length; i++){
 			var person = reactList[i].split('%');
 			message.channel.send('**User:** `'+person[1]+ '` **Reactions:** `'+person[2]+'`');
 		}
     	}
 	
+	if((message.content == '!resetList')&&(message.author.id == '327162272990363648')){
+		console.log('Reseting');
+		reactList.length = 0;
+
+    	}
+	/*
 	if ((message.content == '!startReactCounter')&&(message.author.id == '327162272990363648')) {
         	message.channel.send('Counter has Started');
        	 	var j = schedule.scheduleJob('15 02 * * *', function () {
@@ -101,6 +108,9 @@ client.on("message", async message => {
 			console.log('Job Finish');
         	});
     	}
+	*/
+	
+	
 	
 	if((command == '!createquadrants')&&(message.author.id == '327162272990363648')){
 		message.guild.channels.find("name", "quadrant-assignment").send('Adding a 👍 reaction to the Quadrant will subsribe you to receive notifications on all raids happening in that area. \nRemoving your reaction will unscrible you from any further notification, if your reacion is missing simply react and removing again should work:').catch((err) => {console.error(err)});
