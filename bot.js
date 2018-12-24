@@ -164,7 +164,7 @@ client.on("message", async message => {
 		var badge = args.join(" ").toLowerCase();
 		var user = message.mentions.users.first();
 		var id = message.member.guild.member(user).id;
-		var guild = message.member.guild.member(user).guild.id;
+		var guild = message.guild.id;
 		var blank = '❌';
 		var obtain = '✅';
 		let trainerdb;
