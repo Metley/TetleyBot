@@ -136,7 +136,7 @@ client.on("message", async message => {
 	*/
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	if((command == '!secret') &&(message.author.id == '327162272990363648')){
-		var person = args.shift().toLowerCase();
+		var person = args.shift().toLowerCase().catch((err) => {console.error(err)});
 		var user = message.mentions.users.first();
 		var id;
 		var guild = message.member.guild.member(user).guild.id;
