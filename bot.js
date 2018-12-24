@@ -18,7 +18,7 @@ client.on("ready", () => {
   const table = sql.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'trainerdb';").get();
   if (!table['count(*)']) {
     // If the table isn't there, create it and setup the database correctly.
-    sql.prepare("CREATE TABLE trainerdb (id TEXT PRIMARY KEY, user TEXT, guild TEXT, badge1 TEXT, badge2 TEXT, badge3 TEXT, badge4 TEXT, badge5 TEXT, badg6 TEXT, badge7 TEXT, badge8 TEXT);").run();
+    sql.prepare("CREATE TABLE trainerdb (id TEXT PRIMARY KEY, user TEXT, guild TEXT, badge1 TEXT, badge2 TEXT, badge3 TEXT, badge4 TEXT, badge5 TEXT, badge6 TEXT, badge7 TEXT, badge8 TEXT);").run();
     // Ensure that the "id" row is always unique and indexed.
     sql.prepare("CREATE UNIQUE INDEX idx_trainerdb_id ON trainerdb (id);").run();
     sql.pragma("synchronous = 1");
