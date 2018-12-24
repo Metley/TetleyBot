@@ -1,7 +1,7 @@
 {
   "gym": [
     {
-      "quadrant": " District3",
+      "quadrant": "District3",
       "nickname": "allan",
       "gymname": "Allan Kerbal Park Dedication Gazebo",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.703159,-79.779598",
@@ -19,7 +19,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District3",
+      "quadrant": "District3",
       "nickname": "ashurst",
       "gymname": "Ashurst Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.715798,-79.766979",
@@ -163,7 +163,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "",
       "gymname": "Brampton Islamic Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.701621,-79.804663",
@@ -190,7 +190,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "peacegard",
       "gymname": "Brampton Peace Garden",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.724886,-79.800397",
@@ -208,7 +208,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "snelgrove",
       "gymname": "Brampton Snelgrove Community Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731186,-79.821935",
@@ -289,7 +289,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "camden",
       "gymname": "Camden Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.719119,-79.794122",
@@ -442,7 +442,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "archangel",
       "gymname": "Church of the Archangel Michael",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.736372,-79.827177",
@@ -478,7 +478,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "conservation",
       "gymname": "Conservation Drive Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.731438,-79.808715",
@@ -505,7 +505,7 @@
       "notes": "Difficult to access due to ongoing construction"
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "cresthaven",
       "gymname": "Cresthaven Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.72531,-79.822206",
@@ -550,7 +550,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "dennison",
       "gymname": "Dennison Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.756898,-79.822228",
@@ -568,7 +568,7 @@
       "notes": "Park at Earnscliffe Recreation Centre and walk over"
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "donnelly",
       "gymname": "Donnelly East Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.734771,-79.782862",
@@ -775,7 +775,7 @@
       "notes": "Park at Gatesgill St and walk over"
     },
     {
-      "quadrant": " District3",
+      "quadrant": "District3",
       "nickname": "lakelands",
       "gymname": "Gazebo at Lakelands Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.718519,-79.761048",
@@ -793,7 +793,7 @@
       "notes": "Not accessible for raids as it's inside the Rogers building"
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "glenmanor",
       "gymname": "Glenmanor Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.712951,-79.790911",
@@ -856,7 +856,7 @@
       "notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "hlic",
       "gymname": "Heartlake Conservation Area Information Sign",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.738711,-79.791855",
@@ -865,7 +865,7 @@
       "notes": "Must park at gate and walk into Heartlake Conservation. If park is open, must pay to get in"
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "hlpc ruth",
       "gymname": "Heartlake Presbyterian Church",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.722108,-79.787387",
@@ -883,7 +883,7 @@
       "notes": "Church service Sundays 10:30am. Due to concerns being raised, avoid raids during school hours on weekdays."
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "hlpp",
       "gymname": "heartlake wise paw prints information sign",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.745691,-79.798188",
@@ -982,7 +982,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "jj",
       "gymname": "Jorgen Jensen Parkette",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.728162,-79.792842",
@@ -1099,7 +1099,7 @@
       "notes": "Park at Rockrose Drive or Sand Cherry Crescent and walk over. Do not park on Bramalea Road"
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "loafers",
       "gymname": "Loafers Lake Recreation Centre",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.726078,-79.798605",
@@ -1153,7 +1153,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "mayfield",
       "gymname": "Mayfield Park Water Tower",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.72996,-79.828426",
@@ -1198,7 +1198,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "mk jimarch",
       "gymname": "Morris Kerbel Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.718385,-79.789277",
@@ -1387,7 +1387,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District3",
+      "quadrant": "District3",
       "nickname": "sheffield",
       "gymname": "Sheffield Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.711187,-79.781072",
@@ -1477,7 +1477,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "stafford",
       "gymname": "Stafford Woods",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.728142,-79.81132",
@@ -1567,7 +1567,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "berean",
       "gymname": "The Berean Church of God",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.713401,-79.800647",
@@ -1630,7 +1630,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "valleywood",
       "gymname": "Valleywood",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.744322,-79.831842",
@@ -1685,7 +1685,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District3",
+      "quadrant": "District3",
       "nickname": "winterfold",
       "gymname": "Winterfold Park",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.713668,-79.773127",
@@ -1712,7 +1712,7 @@
       "notes": ""
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "",
       "gymname": "Word of God Assemblies International",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.701121,-79.796755",
@@ -1730,7 +1730,7 @@
       "notes": "Free parking under City Hall on weekends"
     },
     {
-      "quadrant": " District2",
+      "quadrant": "District2",
       "nickname": "zion",
       "gymname": "Zion Cemetery",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.726159,-79.813347",
