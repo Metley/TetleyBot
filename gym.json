@@ -1307,7 +1307,16 @@
     },
     {
       "quadrant": "District1",
-      "nickname": "peleg",
+      "nickname": "",
+      "gymname": "Peleg Howland Valley",
+      "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.69974,-79.813181",
+      "exeligible": "Yes",
+      "nearbyintersection": "Queen Mary & Sandalwood",
+      "notes": "Park at Woodvalley Drive and walk over"
+    },
+    {
+      "quadrant": "District1",
+      "nickname": "",
       "gymname": "Peleg Howland Valley Park Entrance - Bonistel Fork",
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.698038,-79.808098",
       "exeligible": "Yes",
@@ -1582,6 +1591,15 @@
       "gymlocation": "https://www.google.com/maps/search/?api=1&query=43.694174,-79.763813",
       "exeligible": "Yes",
       "nearbyintersection": "Ken Whillans & Vodden",
+      "notes": ""
+    },
+    {
+      "quadrant": "District6",
+      "nickname": "",
+      "gymname": "The Stone Square",
+      "gymlocation": "https://www.google.com/maps/dir/?api=1&destination=43.717383,-79.75159",
+      "exeligible": "Yes",
+      "nearbyintersection": "410 & Williams",
       "notes": ""
     },
     {
