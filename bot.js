@@ -117,7 +117,7 @@ client.on("message", async message => {
 		var person = args.shift().toLowerCase();
 		var badge = args.join(" ").toLowerCase();
 		var user = message.mentions.users.first();
-		var id = message.member.guild.member(person).id;
+		var id = message.member.guild.member(user).id;
 		
 		
 		message.channel.send('whatup '+person+ ' '+id);
