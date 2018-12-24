@@ -143,7 +143,7 @@ client.on("message", async message => {
 		
 		if(!user){
 			id = message.author.id;
-			guild = message.author.guild.id;
+			guild = message.guild.id;
 		} else {
 			id = message.member.guild.member(user).id;
 			guild = message.member.guild.member(user).guild.id;
