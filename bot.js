@@ -34,7 +34,7 @@ client.on("message", async message => {
 
    		
     if((message.content == '!test')&&(message.author.id == '327162272990363648')){
-		message.channel.send('hello <:Pokeball:526561021750673418>');
+		message.channel.send('hello <a:Pokeball:526561021750673418>');
     }
 	
 	if((message.content.toLowerCase().includes('more eggs'))&&(message.channel.id == '426757841580195850')){
