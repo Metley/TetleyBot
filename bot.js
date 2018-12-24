@@ -3,9 +3,10 @@ const client = new Discord.Client();
 const schedule = require('node-schedule');
 const gyms = require ("./gym.json");
 const staffs = require ("./staff.json");
-const badgedb = require ("./badgedb.json");
+const badgesdb = require ("./badgedb.json");
 const fs = require('fs');
 var reactList = [];
+var obj = {badgedb: []};
 var badges = ['Boulder Badge','Cascade Badge','Thunder Badge','Rainbow Badge','Soul Badge','Marsh Badge','Marsh Badge','Earth Badge'];
 
 
@@ -118,6 +119,96 @@ client.on("message", async message => {
 		var badge = args.join(" ").toLowerCase();
 		var user = message.mentions.users.first();
 		var id = message.member.guild.member(user).id;
+		var badgedb = badgesdb.badgedb;
+		var found = false;
+		
+		//var yourjsonfile = fs.readFileSync("badgedb.json");
+    		//var ftpr = JSON.parse(yourjsonfile);
+    		for (let i = 0; i < badgedb.length; i++) {
+  			if (id == badgedb[i].id) {
+				switch(badge){
+					case '1':
+						badgedb.badge1 = badge;
+						break;
+					case '2':
+						badgedb.badge2 = badge;
+						break;
+					case '3':
+						badgedb.badge3 = badge;
+						break;
+					case '4':
+						badgedb.badge4 = badge;
+						break;
+					case '5':
+						badgedb.badge5 = badge;
+						break;
+					case '6':
+						badgedb.badge6 = badge;
+						break;
+					case '7':
+						badgedb.badge7 = badge;
+						break;
+					case '8':
+						badgedb.badge8 = badge;
+						break;
+					default:
+						message.channel.send('Bleh');
+				}
+				found = true;
+			}
+		}
+		if(!found){
+			var obj = {
+				id: id,
+				badge1: null,
+				badge2: null,
+				badge3: null,
+				badge4: null,
+				badge5: null,
+				badge6: null,
+				badge7: null,
+				badge8: null,
+			};
+			
+			switch(badge){
+					case '1':
+						obj.badge1 = badge;
+						break;
+					case '2':
+						obj.badge2 = badge;
+						break;
+					case '3':
+						obj.badge3 = badge;
+						break;
+					case '4':
+						obj.badge4 = badge;
+						break;
+					case '5':
+						obj.badge5 = badge;
+						break;
+					case '6':
+						obj.badge6 = badge;
+						break;
+					case '7':
+						obj.badge7 = badge;
+						break;
+					case '8':
+						obj.badge8 = badge;
+						break;
+					default:
+						message.channel.send('Bleh');
+				}
+			
+			
+			badgesdb.badgedb.push();
+		}
+		
+		fs.writeFile ("badgedb.json", JSON.stringify(badgesdb.badgedb), function(err) {
+    			if (err) throw err;
+    			console.log('complete');
+		    }
+		);	
+		
 		
 		
 		message.channel.send('whatup '+person+ ' '+id);
