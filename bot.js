@@ -164,7 +164,7 @@ client.on("message", async message => {
     		trainerdb = client.getTrainerdb.get(id, guild);
     		
 		if (!trainerdb) {
-      			trainerdb = { id: `${message.guild.id}-${message.author.id}`, user: message.author.id, guild: message.guild.id, badge1: blank, badge2: blank, badge3: blank, badge4: blank, badge5: blank, badge6: blank, badge7: blank, badge8: blank }
+      			trainerdb = { id: `${guild}-${id}`, user: id, guild: guild, badge1: blank, badge2: blank, badge3: blank, badge4: blank, badge5: blank, badge6: blank, badge7: blank, badge8: blank }
     		}
 		switch(badge){
 					case '1':
