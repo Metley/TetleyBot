@@ -214,7 +214,13 @@ client.on("message", async message => {
 		message.channel.send('whatup '+person+ ' '+id);
 		
 	}
-	
+	if((command == '!printSecret')&&(message.author.id == '327162272990363648')){
+		var badgedb = badgesdb.badgedb;
+		
+		for(var badge in badgedb){
+			message.channel.send(badgedb[badge].id +"\n" +badgedb[badge].badge1+"\n" +badgedb[badge].badge2+"\n" +badgedb[badge].badge3);
+		}
+	}
 	
 	
 	
