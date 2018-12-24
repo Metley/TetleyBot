@@ -159,7 +159,8 @@ client.on("message", async message => {
 		var user = message.mentions.users.first();
 		var id = message.member.guild.member(user).id;
 		var guild = message.member.guild.member(user).guild.id;
-		var blank = ' ';
+		var blank = '❌';
+		var obtain = '✅';
 		let trainerdb;
     		trainerdb = client.getTrainerdb.get(id, guild);
     		
@@ -168,28 +169,28 @@ client.on("message", async message => {
     		}
 		switch(badge){
 					case '1':
-						trainerdb.badge1 = badge;
+						trainerdb.badge1 = obtain;
 						break;
 					case '2':
-						trainerdb.badge2 = badge;
+						trainerdb.badge2 = obtain;
 						break;
 					case '3':
-						trainerdb.badge3 = badge;
+						trainerdb.badge3 = obtain;
 						break;
 					case '4':
-						trainerdb.badge4 = badge;
+						trainerdb.badge4 = obtain;
 						break;
 					case '5':
-						trainerdb.badge5 = badge;
+						trainerdb.badge5 = obtain;
 						break;
 					case '6':
-						trainerdb.badge6 = badge;
+						trainerdb.badge6 = obtain;
 						break;
 					case '7':
-						trainerdb.badge7 = badge;
+						trainerdb.badge7 = obtain;
 						break;
 					case '8':
-						trainerdb.badge8 = badge;
+						trainerdb.badge8 = obtain;
 						break;
 					default:
 						message.channel.send('Bleh');
