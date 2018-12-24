@@ -210,10 +210,12 @@ client.on("message", async message => {
 		);	
 		
 		
-		
+		console.log('yo whatup');
 		message.channel.send('whatup '+person+ ' '+id);
 		
 	}
+	
+	
 	if((command == '!printSecret')&&(message.author.id == '327162272990363648')){
 		var badgedb = badgesdb.badgedb;
     		console.log('command printSecret');
