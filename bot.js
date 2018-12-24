@@ -216,7 +216,7 @@ client.on("message", async message => {
 	}
 	
 	
-	if((command == '!printSecret')&&(message.author.id == '327162272990363648')){
+	if((message.content == '!secret')&&(message.author.id == '327162272990363648')){
 		console.log('command printSecret');
 		var badgedb = badgesdb.badgedb;
     		
