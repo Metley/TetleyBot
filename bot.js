@@ -34,7 +34,7 @@ client.on("message", async message => {
 
    		
     if((message.content == '!test')&&(message.author.id == '327162272990363648')){
-		message.channel.send('hello <a:Pokeball:526561021750673418>');
+		message.channel.send('hello <:Pokeball:418848782952955944>');
     }
 	
 	if((message.content.toLowerCase().includes('more eggs'))&&(message.channel.id == '426757841580195850')){
@@ -355,7 +355,6 @@ function countRaidReactions(messageReaction, user){
 			tName = person[1];
 			tNum = person[2];
 			console.log('Entered For Loop');
-			console.log('${tId} == ${id}');
 			if(tId == id){
 				tNum++;
 				var react = tId+"%"+tName+"%"+tNum;
@@ -374,12 +373,14 @@ function countRaidReactions(messageReaction, user){
 			}
 		}
 		if(newEntry){
+			console.log(id+' '+name+' ' );
 			var react = id+"%"+name+"%1";
 			reactList.push(react);
 			console.log("Added a new Person to List");
 		}
 		
 	} else {
+		console.log(id+' '+name+' ' );
 		var react = id+"%"+name+"%1";
 		reactList.push(react);
 		console.log("Added a new Person to List and List is Empty");
