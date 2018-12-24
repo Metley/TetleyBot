@@ -116,7 +116,11 @@ client.on("message", async message => {
 	if((command == '!give') &&(message.author.id == '327162272990363648')){
 		var person = args.shift().toLowerCase();
 		var badge = args.join(" ").toLowerCase();
-		message.channel.send('whatup'+person);
+		var user = message.mentions.users.first();
+		var id = message.member.guild.member(person).id;
+		
+		
+		message.channel.send('whatup '+person+ ' '+id);
 		
 	}
 	
