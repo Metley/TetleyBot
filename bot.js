@@ -152,7 +152,7 @@ client.on("message", async message => {
 		let trainerdb;
     		trainerdb = client.getTrainerdb.get(id, guild);
 		
-		if(!trainerdb){
+		if(trainerdb){
 			message.channel.send('Secret1: '+trainerdb.badge1+'\nSecret2: '+trainerdb.badge2+'\nSecret3: '+trainerdb.badge3);
 		}else{
 			message.channel.send('Secret1: ❌'+'\nSecret2: ❌'+'\nSecret3: ❌');
