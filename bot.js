@@ -6,7 +6,7 @@ const staffs = require ("./staff.json");
 const badgedb = require ("./badgedb.json");
 const fs = require('fs');
 var reactList = [];
-var badges = {'Boulder Badge','Cascade Badge','Thunder Badge','Rainbow Badge','Soul Badge','Marsh Badge','Marsh Badge','Earth Badge'};
+var badges = ['Boulder Badge','Cascade Badge','Thunder Badge','Rainbow Badge','Soul Badge','Marsh Badge','Marsh Badge','Earth Badge'];
 
 
 client.on("message", async message => {
