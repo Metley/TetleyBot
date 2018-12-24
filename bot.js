@@ -3,7 +3,10 @@ const client = new Discord.Client();
 const schedule = require('node-schedule');
 const gyms = require ("./gym.json");
 const staffs = require ("./staff.json");
+const badgedb = require ("./badgedb.json");
+const fs = require('fs');
 var reactList = [];
+var badges = {'Boulder Badge','Cascade Badge','Thunder Badge','Rainbow Badge','Soul Badge','Marsh Badge','Marsh Badge','Earth Badge'};
 
 
 client.on("message", async message => {
@@ -109,9 +112,18 @@ client.on("message", async message => {
         	});
     	}
 	*/
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	if((command == '!give') &&(message.author.id == '327162272990363648')){
+		var person = args.shift().toLowerCase();
+		var badge = args.join(" ").toLowerCase();
+		message.channel.send('whatup'+person);
+		
+	}
 	
 	
 	
+	
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	if((command == '!createquadrants')&&(message.author.id == '327162272990363648')){
 		message.guild.channels.find("name", "quadrant-assignment").send('Adding a 👍 reaction to the Quadrant will subsribe you to receive notifications on all raids happening in that area. \nRemoving your reaction will unscrible you from any further notification, if your reacion is missing simply react and removing again should work:').catch((err) => {console.error(err)});
 		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantA').catch((err) => {console.error(err)});
