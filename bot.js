@@ -3,11 +3,32 @@ const client = new Discord.Client();
 const schedule = require('node-schedule');
 const gyms = require ("./gym.json");
 const staffs = require ("./staff.json");
-const badgesdb = require ("./badgedb.json");
-const fs = require('fs');
+const SQLite = require("better-sqlite3");
+const sql = new SQLite('./trainerdb.sqlite');
+//const badgesdb = require ("./badgedb.json");
+//const fs = require('fs');
 var reactList = [];
-var obj = {badgedb: []};
+//var obj = {badgedb: []};
 var badges = ['Boulder Badge','Cascade Badge','Thunder Badge','Rainbow Badge','Soul Badge','Marsh Badge','Marsh Badge','Earth Badge'];
+
+
+
+client.on("ready", () => {
+  // Check if the table "points" exists.
+  const table = sql.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'trainerdb';").get();
+  if (!table['count(*)']) {
+    // If the table isn't there, create it and setup the database correctly.
+    sql.prepare("CREATE TABLE trainerdb (id TEXT PRIMARY KEY, user TEXT, guild TEXT, badge1 TEXT, badge2 TEXT, badge3 TEXT, badge4 TEXT, badge5 TEXT, badg6 TEXT, badge7 TEXT, badge8 TEXT);").run();
+    // Ensure that the "id" row is always unique and indexed.
+    sql.prepare("CREATE UNIQUE INDEX idx_trainerdb_id ON trainerdb (id);").run();
+    sql.pragma("synchronous = 1");
+    sql.pragma("journal_mode = wal");
+  }
+ 
+  // And then we have two prepared statements to get and set the score data.
+  client.getTrainerdb = sql.prepare("SELECT * FROM trainerdb WHERE user = ? AND guild = ?");
+  client.setTrainerdb = sql.prepare("INSERT OR REPLACE INTO trainerdb (id, user, guild, badge1, badge2, badge3, badge4, badge5, badge6, badge7, badge8) VALUES (@id, @user, @guild, @badge1, @badge2, @badge3, @badge4, @badge5, @badge6, @badge7, @badge8);");
+});
 
 
 client.on("message", async message => {
@@ -114,6 +135,73 @@ client.on("message", async message => {
     	}
 	*/
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	if((command == '!secret') &&(message.author.id == '327162272990363648')){
+		var person = args.shift().toLowerCase();
+		var user = message.mentions.users.first();
+		var id;
+		var guild = message.member.guild.member(user).guild;
+		
+		if(!user){
+			id = message.author.id;
+		} else {
+			id = message.member.guild.member(user).id;
+		}
+		
+		let trainerdb;
+    		trainerdb = client.getTrainerdb.get(id, guild);
+		
+		message.channel.send('Secret1: '+trainerdb.badge1+'\nSecret2: '+trainerdb.badge2+'\nSecret3: '+trainerdb.badge3);
+		
+	}
+	if((command == '!give') &&(message.author.id == '327162272990363648')){
+		var person = args.shift().toLowerCase();
+		var badge = args.join(" ").toLowerCase();
+		var user = message.mentions.users.first();
+		var id = message.member.guild.member(user).id;
+		var guild = message.member.guild.member(user).guild;
+		var blank = ' ';
+		let trainerdb;
+    		trainerdb = client.getTrainerdb.get(id, guild);
+    		
+		if (!trainerdb) {
+      			trainerdb = { id: `${message.guild.id}-${message.author.id}`, user: message.author.id, guild: message.guild.id, badge1: blank, badge2: blank, badge3: blank, badge4: blank, badge5: blank, badge6: blank, badge7: blank, badge8: blank }
+    		}
+		switch(badge){
+					case '1':
+						trainerdb.badge1 = badge;
+						break;
+					case '2':
+						trainerdb.badge2 = badge;
+						break;
+					case '3':
+						trainerdb.badge3 = badge;
+						break;
+					case '4':
+						trainerdb.badge4 = badge;
+						break;
+					case '5':
+						trainerdb.badge5 = badge;
+						break;
+					case '6':
+						trainerdb.badge6 = badge;
+						break;
+					case '7':
+						trainerdb.badge7 = badge;
+						break;
+					case '8':
+						trainerdb.badge8 = badge;
+						break;
+					default:
+						message.channel.send('Bleh');
+				}
+		
+    	
+    		client.setTrainerdb.run(trainerdb);
+	}
+	
+	
+	
+	/*
 	if((command == '!give') &&(message.author.id == '327162272990363648')){
 		var person = args.shift().toLowerCase();
 		var badge = args.join(" ").toLowerCase();
@@ -227,7 +315,7 @@ client.on("message", async message => {
 			message.channel.send(badgedb[badge].id +"\n" +badgedb[badge].badge1+"\n" +badgedb[badge].badge2+"\n" +badgedb[badge].badge3);
 		}
 	}
-	
+	*/
 	
 	
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
