@@ -139,18 +139,24 @@ client.on("message", async message => {
 		//var person = args.shift().toLowerCase();
 		var user = message.mentions.users.first();
 		var id;
-		var guild = message.member.guild.member(user).guild.id;
+		var guild;
 		
 		if(!user){
 			id = message.author.id;
+			guild = message.author.guild.id;
 		} else {
 			id = message.member.guild.member(user).id;
+			guild = message.member.guild.member(user).guild.id;
 		}
 		
 		let trainerdb;
     		trainerdb = client.getTrainerdb.get(id, guild);
 		
-		message.channel.send('Secret1: '+trainerdb.badge1+'\nSecret2: '+trainerdb.badge2+'\nSecret3: '+trainerdb.badge3);
+		if(!trainerdb){
+			message.channel.send('Secret1: '+trainerdb.badge1+'\nSecret2: '+trainerdb.badge2+'\nSecret3: '+trainerdb.badge3);
+		}else{
+			message.channel.send('Secret1: ❌'+'\nSecret2: ❌'+'\nSecret3: ❌');
+		}
 		
 	}
 	if((command == '!give') &&(message.author.id == '327162272990363648')){
