@@ -139,7 +139,7 @@ client.on("message", async message => {
 		var person = args.shift().toLowerCase();
 		var user = message.mentions.users.first();
 		var id;
-		var guild = message.member.guild.member(user).guild;
+		var guild = message.member.guild.member(user).guild.id;
 		
 		if(!user){
 			id = message.author.id;
@@ -158,7 +158,7 @@ client.on("message", async message => {
 		var badge = args.join(" ").toLowerCase();
 		var user = message.mentions.users.first();
 		var id = message.member.guild.member(user).id;
-		var guild = message.member.guild.member(user).guild;
+		var guild = message.member.guild.member(user).guild.id;
 		var blank = ' ';
 		let trainerdb;
     		trainerdb = client.getTrainerdb.get(id, guild);
