@@ -3,8 +3,10 @@ const client = new Discord.Client();
 const schedule = require('node-schedule');
 const gyms = require ("./gym.json");
 const staffs = require ("./staff.json");
+const gymleaders = require ("./gymleader.json");
 const SQLite = require("better-sqlite3");
 const sql = new SQLite('./trainerdb.sqlite');
+const { Client, RichEmbed } = require('discord.js');
 //const badgesdb = require ("./badgedb.json");
 //const fs = require('fs');
 var reactList = [];
@@ -14,27 +16,25 @@ var badges = ['Boulder Badge','Cascade Badge','Thunder Badge','Rainbow Badge','S
 
 
 client.on("ready", () => {
-  // Check if the table "points" exists.
-  const table = sql.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'trainerdb';").get();
-  if (!table['count(*)']) {
-    // If the table isn't there, create it and setup the database correctly.
-    sql.prepare("CREATE TABLE trainerdb (id TEXT PRIMARY KEY, user TEXT, guild TEXT, badge1 TEXT, badge2 TEXT, badge3 TEXT, badge4 TEXT, badge5 TEXT, badge6 TEXT, badge7 TEXT, badge8 TEXT);").run();
-    // Ensure that the "id" row is always unique and indexed.
-    sql.prepare("CREATE UNIQUE INDEX idx_trainerdb_id ON trainerdb (id);").run();
-    sql.pragma("synchronous = 1");
-    sql.pragma("journal_mode = wal");
-  }
+	// Check if the table "points" exists.
+	const table = sql.prepare("SELECT count(*) FROM sqlite_master WHERE type='table' AND name = 'trainerdb';").get();
+	if (!table['count(*)']) {
+		// If the table isn't there, create it and setup the database correctly.
+		sql.prepare("CREATE TABLE trainerdb (id TEXT PRIMARY KEY, user TEXT, guild TEXT, badge1 TEXT, badge2 TEXT, badge3 TEXT, badge4 TEXT, badge5 TEXT, badge6 TEXT, badge7 TEXT, badge8 TEXT);").run();
+		// Ensure that the "id" row is always unique and indexed.
+		sql.prepare("CREATE UNIQUE INDEX idx_trainerdb_id ON trainerdb (id);").run();
+		sql.pragma("synchronous = 1");
+		sql.pragma("journal_mode = wal");
+	}
  
-  // And then we have two prepared statements to get and set the score data.
-  client.getTrainerdb = sql.prepare("SELECT * FROM trainerdb WHERE user = ? AND guild = ?");
-  client.setTrainerdb = sql.prepare("INSERT OR REPLACE INTO trainerdb (id, user, guild, badge1, badge2, badge3, badge4, badge5, badge6, badge7, badge8) VALUES (@id, @user, @guild, @badge1, @badge2, @badge3, @badge4, @badge5, @badge6, @badge7, @badge8);");
+	// And then we have two prepared statements to get and set the score data.
+	client.getTrainerdb = sql.prepare("SELECT * FROM trainerdb WHERE user = ? AND guild = ?");
+	client.setTrainerdb = sql.prepare("INSERT OR REPLACE INTO trainerdb (id, user, guild, badge1, badge2, badge3, badge4, badge5, badge6, badge7, badge8) VALUES (@id, @user, @guild, @badge1, @badge2, @badge3, @badge4, @badge5, @badge6, @badge7, @badge8);");
+  
 });
 
 
 client.on("message", async message => {
-
-    //if(message.content.indexOf('!') !== 0) return;
-    //if(message.channel.id !== '424656070892322826') return;
 	
     const args = message.content.split(' ');
     const command = args.shift().toLowerCase();
@@ -91,9 +91,22 @@ client.on("message", async message => {
 	
 	if((command == '!nicknamelist')&&(message.author.id == '327162272990363648')){
 		var gymdb = gyms.gym;
-		message.channel.send("**__" +"Gym Nickname List:"+"__**").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
+		message.channel.send("**__" +"Gym Shortcuts:"+"__**");
+		message.channel.send("\n "+"These shortcut phrases can be used with ``!find`` or ``!post`` in order to simplify posting directions for raids."+"\n ");
 		for(var gym in gymdb){
-			message.channel.send("`" +gymdb[gym].gymname +" - " +gymdb[gym].nickname+"`").then(msg => {msg.delete(300000)}).catch((err) => {console.error(err)});
+			message.channel.send(gymdb[gym].gymname +" - `" +gymdb[gym].nickname+"`");
+		}
+		
+	}
+  
+	if((command == '!gymdatabase')&&(message.author.id == '327162272990363648')){
+		var gymdb = gyms.gym;
+    	var num = 1;
+		message.channel.send("**__" +"Gym Database:"+"__**+\n ");
+		for(var gym in gymdb){
+			var exloc = (((gymdb[gym].exeligible) == 'Yes') ? '<:EXRaid:418885952967147520>' : ' ');
+			message.channel.send("__**#"+num+" "+gymdb[gym].gymname +" "+exloc+"**__ \n" +gymdb[gym].gymlocation);
+			num++;
 		}
 		
 	}
@@ -106,19 +119,26 @@ client.on("message", async message => {
 		}
 	}
 	
-	if((message.content == '!printList')&&(message.author.id == '327162272990363648')){
-		console.log('Printing');
-		for(var i = 0; i < reactList.length; i++){
-			var person = reactList[i].split('%');
-			message.channel.send('**User:** `'+person[1]+ '` **Reactions:** `'+person[2]+'`');
+	
+  
+	if((command == '!talk')&&(message.author.id == '327162272990363648')){    
+		var channel = args.shift().toLowerCase().replace(/<#|>/g, '');
+		var textinput = args.join(" ").toLowerCase();
+    
+		if (!(message.guild.channels.exists('id', channel))) { 
+			message.reply(`The ${channel} channel does not exist.`).catch(console.error);
+			return; //prevents the rest of the code from being executed
 		}
-    	}
+    
+		message.guild.channels.get(channel).send(textinput);
+		
+		message.delete(5000).catch((err) => {console.error(err)});
+	}
 	
 	if((message.content == '!resetList')&&(message.author.id == '327162272990363648')){
 		console.log('Reseting');
 		reactList.length = 0;
-
-    	}
+	}
 	/*
 	if ((message.content == '!startReactCounter')&&(message.author.id == '327162272990363648')) {
         	message.channel.send('Counter has Started');
@@ -134,8 +154,57 @@ client.on("message", async message => {
         	});
     	}
 	*/
+  
+  
+	if((command == '!clearchat')&&(message.author.id == '327162272990363648')&&(message.channel.id == '444267666811650058')){
+		const deleteCount = parseInt(args[0], 10);
+    
+		if(!deleteCount || deleteCount < 2 || deleteCount > 100)
+			return message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
+    
+		const fetched = await message.channel.fetchMessages({limit: deleteCount});
+		message.channel.bulkDelete(fetched).catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
+  	}
+	
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-	if((command == '!secret') &&(message.author.id == '327162272990363648')){
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Start of Gym Badges@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	
+	if((command == '!printBadgedb')&&(message.author.id == '327162272990363648')){
+		var guild = message.guild.id;
+		//const allpeople = sql.prepare("SELECT * FROM scores WHERE trainerdb = ?;").all(message.guild.id);
+		message.channel.send('Attempting');
+		let trainerdb;
+		trainerdb = client.printTrainerdb.get(guild);
+    
+		for(var trainer in trainerdb) {
+			message.channel.send(trainer.id +" - "+ trainer.user +" - "+ trainer.guild +" - "+ trainer.badge1 +" - "+trainer.badge2 +" - "+trainer.badge3 +" - "+trainer.badge4 +" - "+trainer.badge5 +" - "+trainer.badge6 +" - "+trainer.badge7 +" - "+trainer.badge8);
+		}
+	}
+	
+	if((message.content == '!printList')&&(message.author.id == '327162272990363648')){
+		console.log('Printing');
+		for(var i = 0; i < reactList.length; i++){
+			var person = reactList[i].split('%');
+			//message.channel.send('**User:** `'+person[1]+ '` **Reactions:** `'+person[2]+'`');
+		}
+		const allpeople = sql.prepare("SELECT * FROM trainerdb WHERE guild = ?;").all(message.guild.id);
+    
+		const embed = new Discord.RichEmbed()
+			.setTitle("Database")
+			.setAuthor(client.user.username, client.user.avatarURL)
+			.setDescription("Trainer Database!")
+			.setColor(0x00AE86);
+    
+		for(const data of allpeople) {
+			//embed.addField(client.users.get(data.user).username, `${data.badge1} - ${data.badge2} - ${data.badge3} - ${data.badge4} - ${data.badge5} - ${data.badge6} - ${data.badge7} - ${data.badge8}`, true);
+			//message.channel.send(trainer.id +" - "+ trainer.user +" - "+ trainer.guild +" - "+ trainer.badge1 +" - "+trainer.badge2 +" - "+trainer.badge3 +" - "+trainer.badge4 +" - "+trainer.badge5 +" - "+trainer.badge6 +" - "+trainer.badge7 +" - "+trainer.badge8);
+			message.channel.send(message.member.guild.member(data.user).displayName+` - ${data.user} - ${data.badge1} - ${data.badge2} - ${data.badge3} - ${data.badge4} - ${data.badge5} - ${data.badge6} - ${data.badge7} - ${data.badge8}`);
+		}
+		//return message.channel.send({embed});
+	}
+  
+	if((command == '!badge') ){
 		//var person = args.shift().toLowerCase();
 		var user = message.mentions.users.first();
 		var id;
@@ -153,179 +222,137 @@ client.on("message", async message => {
     		trainerdb = client.getTrainerdb.get(id, guild);
 		
 		if(trainerdb){
-			message.channel.send('Secret1: '+trainerdb.badge1+'\nSecret2: '+trainerdb.badge2+'\nSecret3: '+trainerdb.badge3);
+			message.channel.send('Boulder Badge: '+trainerdb.badge1+'\nCascade Badge: '+trainerdb.badge2+'\nThunder Badge: '+trainerdb.badge3+'\nRainbow Badge: '+trainerdb.badge4+'\nSoul Badge: '+trainerdb.badge5+'\nMarsh Badge: '+trainerdb.badge6+'\nVolcano Badge: '+trainerdb.badge7+'\nEarth Badge: '+trainerdb.badge8);
 		}else{
-			message.channel.send('Secret1: ❌'+'\nSecret2: ❌'+'\nSecret3: ❌');
+			message.channel.send('Boulder Badge: ❌'+'\nCascade Badge: ❌'+'\nThunder Badge: ❌'+'\nRainbow Badge: ❌'+'\nSoul Badge: ❌'+'\nMarsh Badge: ❌'+'\nVolcano Badge: ❌'+'\nEarth Badge: ❌');
 		}
 		
 	}
-	if((command == '!give') &&(message.author.id == '327162272990363648')){
+  
+	if((command == '!give')){
 		var person = args.shift().toLowerCase();
 		var badge = args.join(" ").toLowerCase();
 		var user = message.mentions.users.first();
-		var id = message.member.guild.member(user).id;
+		var id = null;
 		var guild = message.guild.id;
 		var blank = '❌';
 		var obtain = '✅';
-		let trainerdb;
-    		trainerdb = client.getTrainerdb.get(id, guild);
-    		
-		if (!trainerdb) {
-      			trainerdb = { id: `${guild}-${id}`, user: id, guild: guild, badge1: blank, badge2: blank, badge3: blank, badge4: blank, badge5: blank, badge6: blank, badge7: blank, badge8: blank }
-    		}
-		switch(badge){
-					case '1':
-						trainerdb.badge1 = obtain;
-						break;
-					case '2':
-						trainerdb.badge2 = obtain;
-						break;
-					case '3':
-						trainerdb.badge3 = obtain;
-						break;
-					case '4':
-						trainerdb.badge4 = obtain;
-						break;
-					case '5':
-						trainerdb.badge5 = obtain;
-						break;
-					case '6':
-						trainerdb.badge6 = obtain;
-						break;
-					case '7':
-						trainerdb.badge7 = obtain;
-						break;
-					case '8':
-						trainerdb.badge8 = obtain;
-						break;
-					default:
-						message.channel.send('Bleh');
-				}
 		
-    	
-    		client.setTrainerdb.run(trainerdb);
+    
+    if((checkGymLeader(message.author.id) == badge) || (checkGymLeader(message.author.id) == 'master')){
+       
+		if(!user){
+			message.channel.send("Trainer not Found!").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});
+			return;
+		}else{
+			id = message.member.guild.member(user).id;
+		}
+      
+		let trainerdb;
+    	trainerdb = client.getTrainerdb.get(id, guild);
+
+		if (!trainerdb) {
+			trainerdb = { id: `${guild}-${id}`, user: id, guild: guild, badge1: blank, badge2: blank, badge3: blank, badge4: blank, badge5: blank, badge6: blank, badge7: blank, badge8: blank }
+        }
+		switch(badge){
+            case 'boulder badge':
+				trainerdb.badge1 = obtain;
+				break;
+            case 'cascade badge':
+				trainerdb.badge2 = obtain;
+				break;
+            case 'thunder badge':
+				trainerdb.badge3 = obtain;
+				break;
+            case 'rainbow badge':
+				trainerdb.badge4 = obtain;
+				break;
+            case 'soul badge':
+				trainerdb.badge5 = obtain;
+				break;
+            case 'marsh badge':
+				trainerdb.badge6 = obtain;
+				break;
+            case 'volcano badge':
+				trainerdb.badge7 = obtain;
+				break;
+            case 'earth badge':
+				trainerdb.badge8 = obtain;
+				break;
+            default:
+				message.channel.send('Badge not Found!');
+				return;
+          }
+
+          client.setTrainerdb.run(trainerdb);
+      }
+    
 	}
 	
-	
-	
-	/*
-	if((command == '!give') &&(message.author.id == '327162272990363648')){
+  if((command == '!take') &&(message.author.id == '327162272990363648')){
 		var person = args.shift().toLowerCase();
 		var badge = args.join(" ").toLowerCase();
 		var user = message.mentions.users.first();
-		var id = message.member.guild.member(user).id;
-		var badgedb = badgesdb.badgedb;
-		var found = false;
+		var id = null;
+		var guild = message.guild.id;
+		var blank = '❌';
+		var obtain = '✅';
 		
-		//var yourjsonfile = fs.readFileSync("badgedb.json");
-    		//var ftpr = JSON.parse(yourjsonfile);
-    		for (let i = 0; i < badgedb.length; i++) {
-  			if (id == badgedb[i].id) {
-				switch(badge){
-					case '1':
-						badgedb.badge1 = badge;
-						break;
-					case '2':
-						badgedb.badge2 = badge;
-						break;
-					case '3':
-						badgedb.badge3 = badge;
-						break;
-					case '4':
-						badgedb.badge4 = badge;
-						break;
-					case '5':
-						badgedb.badge5 = badge;
-						break;
-					case '6':
-						badgedb.badge6 = badge;
-						break;
-					case '7':
-						badgedb.badge7 = badge;
-						break;
-					case '8':
-						badgedb.badge8 = badge;
-						break;
-					default:
-						message.channel.send('Bleh');
-				}
-				found = true;
-			}
+    
+    if((checkGymLeader(message.author.id) == badge) || (checkGymLeader(message.author.id) == 'master')){
+       
+		if(!user){
+			message.channel.send("Trainer not Found!").then(msg => {msg.delete(30000)}).catch((err) => {console.error(err)});
+			return;
+		}else{
+			id = message.member.guild.member(user).id;
 		}
-		if(!found){
-			var obj = {
-				id: id,
-				badge1: null,
-				badge2: null,
-				badge3: null,
-				badge4: null,
-				badge5: null,
-				badge6: null,
-				badge7: null,
-				badge8: null,
-			};
-			
-			switch(badge){
-					case '1':
-						obj.badge1 = badge;
-						break;
-					case '2':
-						obj.badge2 = badge;
-						break;
-					case '3':
-						obj.badge3 = badge;
-						break;
-					case '4':
-						obj.badge4 = badge;
-						break;
-					case '5':
-						obj.badge5 = badge;
-						break;
-					case '6':
-						obj.badge6 = badge;
-						break;
-					case '7':
-						obj.badge7 = badge;
-						break;
-					case '8':
-						obj.badge8 = badge;
-						break;
-					default:
-						message.channel.send('Bleh');
-				}
-			
-			
-			badgesdb.badgedb.push();
-		}
-		
-		fs.writeFile ("badgedb.json", JSON.stringify(badgesdb.badgedb), function(err) {
-    			if (err) throw err;
-    			console.log('complete');
-		    }
-		);	
-		
-		
-		console.log('yo whatup');
-		message.channel.send('whatup '+person+ ' '+id);
-		
+      
+		let trainerdb;
+    		trainerdb = client.getTrainerdb.get(id, guild);
+
+		if (!trainerdb){
+            trainerdb = { id: `${guild}-${id}`, user: id, guild: guild, badge1: blank, badge2: blank, badge3: blank, badge4: blank, badge5: blank, badge6: blank, badge7: blank, badge8: blank }
+        }
+		switch(badge){
+            case 'boulder badge':
+				trainerdb.badge1 = blank;
+				break;
+            case 'cascade badge':
+				trainerdb.badge2 = blank;
+				break;
+            case 'thunder badge':
+				trainerdb.badge3 = blank;
+				break;
+            case 'rainbow badge':
+				trainerdb.badge4 = blank;
+				break;
+            case 'soul badge':
+				trainerdb.badge5 = blank;
+				break;
+            case 'marsh badge':
+				trainerdb.badge6 = blank;
+				break;
+            case 'volcano badge':
+				trainerdb.badge7 = blank;
+				break;
+            case 'earth badge':
+				trainerdb.badge8 = blank;
+				break;
+            default:
+				message.channel.send('Badge not Found!');
+          }
+
+          client.setTrainerdb.run(trainerdb);
+      }
+    
 	}
 	
-	
-	if((message.content == '!secret')&&(message.author.id == '327162272990363648')){
-		console.log('command printSecret');
-		var badgedb = badgesdb.badgedb;
-    		
 		
-		
-		for(var badge in badgedb){
-    			console.log(badgedb[badge].id);
-			message.channel.send(badgedb[badge].id +"\n" +badgedb[badge].badge1+"\n" +badgedb[badge].badge2+"\n" +badgedb[badge].badge3);
-		}
-	}
-	*/
-	
-	
 	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@End of Gym Badges@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	
 	if((command == '!createquadrants')&&(message.author.id == '327162272990363648')){
 		message.guild.channels.find("name", "quadrant-assignment").send('Adding a 👍 reaction to the Quadrant will subsribe you to receive notifications on all raids happening in that area. \nRemoving your reaction will unscrible you from any further notification, if your reacion is missing simply react and removing again should work:').catch((err) => {console.error(err)});
 		message.guild.channels.find("name", "quadrant-assignment").send('-QuadrantA').catch((err) => {console.error(err)});
@@ -480,7 +507,7 @@ client.on("message", async message => {
 });
 
 client.on("messageReactionAdd", (messageReaction, user) => {   
-	
+	/*
 	if(messageReaction.message.channel.id == 456520132672356372){
 		if(messageReaction.emoji.id = '👍'){
 			switch(messageReaction.message.content){
@@ -508,7 +535,7 @@ client.on("messageReactionAdd", (messageReaction, user) => {
 			countRaidReactions(messageReaction, user);
 		}
 	}
-   
+   */
 });
 
 client.on('messageReactionRemove', function(messageReaction, user) {    
@@ -543,6 +570,17 @@ function checkStaff(person){
 	for(var staff in staffdb){
 		if(staffdb[staff].id == person){
 			return staffdb[staff].title;
+		}
+	}
+	return 'fart';
+}
+
+function checkGymLeader(person){
+	var gymleaderdb = gymleaders.gymleader;
+	
+	for(var gymleader in gymleaderdb){
+		if(gymleaderdb[gymleader].id == person){
+			return gymleaderdb[gymleader].title;
 		}
 	}
 	return 'fart';
@@ -604,4 +642,4 @@ function countRaidReactions(messageReaction, user){
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.TOKEN);
